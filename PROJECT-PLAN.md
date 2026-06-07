@@ -12,22 +12,27 @@
 - [ ] #8 Business Model Canvas
 - [ ] #11 Playing mat design concepts
 - [ ] #12 Tile rack design concepts
+- [ ] #16 Production equipment specs (laser engraver + UV printer)
 
 ### Phase 2: Design & Prototyping (Next)
 - [ ] Tile mockups, playtesting simulations
 - [ ] Digital prototype (medium TBD)
 - [ ] #13 Dice design concepts
 - [ ] #14 Trinkets & accessories design concepts
+- [ ] #17 Adapt tile designs for UV printer output (1440 DPI PNG, CMYKWG color)
+- [ ] #18 Adapt tile designs for laser engraver output (SVG vector, xTool Studio templates)
 
 ## Repository Structure
 - `README.md` - Vision
 - `rules/gameplay-rules.md` - Complete rules
 - `/design/moodboard/` - All 37 moodboard images (rangoli, temples, peacock, spice)
 - `/design/tiles/` - Tile designs, generation script, and art spec
-- `/design/mat/` - Playing mat design (placeholder)
-- `/design/racks/` - Tile rack design (placeholder)
-- `/design/dice/` - Dice design (placeholder)
-- `/design/trinkets/` - Trinkets & accessories design (placeholder)
+- `/design/mat/` - Playing mat design
+- `/design/racks/` - Tile rack design
+- `/design/dice/` - Dice design
+- `/design/trinkets/` - Trinkets & accessories design
+- `/production/engraving/` - xTool F2 Ultra UV laser engraver specs
+- `/production/printing/` - eufyMake E1 UV printer specs
 - `/research/` - Competitor analysis and user research (placeholder)
 - `/business/` - Business model and plans (placeholder)
 
