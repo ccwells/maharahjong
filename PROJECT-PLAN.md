@@ -18,9 +18,9 @@
 ## Repository Structure
 - `README.md` - Vision
 - `RULES.md` - Complete rules
-- `/design/moodboard/` - Rangoli, temple, spice images
-- `/design/tiles/` - Tile concepts
-- `/research/` - Future comps
-- `/business/` - Plans
+- `/design/moodboard/` - All 37 moodboard images (rangoli, temples, peacock, spice)
+- `/design/tiles/` - Tile concept artwork (placeholder)
+- `/research/` - Competitor analysis and user research (placeholder)
+- `/business/` - Business model and plans (placeholder)
 
 **All files pushed and ready for local clone.** Sync with Google Drive as needed. Let's make Maharahjong a reality! 🀄🇮🇳
