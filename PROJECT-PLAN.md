@@ -21,6 +21,20 @@
 - [ ] #14 Trinkets & accessories design concepts
 - [ ] #17 Adapt tile designs for UV printer output (1440 DPI PNG, CMYKWG color)
 - [ ] #18 Adapt tile designs for laser engraver output (SVG vector, xTool Studio templates)
+- [ ] #21 Social media teaser image (tablescape)
+
+### Phase 3: Ecommerce Setup
+- [ ] #22 Shopify store setup & domain configuration
+- [ ] #23 Storefront theme design & brand customization
+- [ ] #24 Product catalog & listings
+- [ ] #25 Payment processing & checkout optimization
+- [ ] #26 Shipping, fulfillment & packaging
+- [ ] #27 Legal compliance, policies & data protection
+- [ ] #28 SEO optimization & search visibility
+- [ ] #29 Analytics, tracking & conversion measurement
+- [ ] #30 Email marketing & automation flows
+- [ ] #31 Pre-launch QA & testing
+- [ ] #32 Launch marketing plan & go-live
 
 ## Repository Structure
 - `README.md` - Vision
