@@ -1,30 +1,36 @@
 # Project Maharahjong Development Plan
 
-## Phases & Milestones
-### Phase 1: Foundation & Research (Weeks 1-2) - In Progress
-- [x] #1 Rules Compilation - Done
-- [x] #2 Mood Board Research - Done
-- [x] #4 Kanban Setup
-- [x] #6 Tile Design Concepts - Visualized
-- [x] #7 Initial Rules Draft - Full draft pushed
-- [ ] #3 Competitor Analysis
-- [ ] #5 User Personas
-- [ ] #8 Business Model Canvas
-- [ ] #11 Playing mat design concepts
-- [ ] #12 Tile rack design concepts
-- [ ] #16 Production equipment specs (laser engraver + UV printer)
+## Current Status (Updated 2026-06-07)
+- **Active branch**: `design-playing-mat` (PR #20 open — mat, teasers, Phase 3 plan)
+- **Blocked on**: Shopify domain propagation (maharahjong.com purchased, awaiting DNS)
+- **Next up**: Audit tile designs against production equipment specs (#17, #18)
+- **Deferred**: #3, #5, #8 (business/research tasks — on hold until game design is finished)
 
-### Phase 2: Design & Prototyping (Next)
+## Phases & Milestones
+### Phase 1: Foundation & Research
+- [x] #1 Rules Compilation — `rules/gameplay-rules.md`
+- [x] #2 Mood Board Research — `design/moodboard/` (37 images)
+- [x] #4 Kanban Setup — [GitHub Project Board](https://github.com/users/ccwells/projects/2)
+- [x] #7 Initial Rules Draft — `rules/gameplay-rules.md` v0.1
+- [x] #16 Production equipment specs — `production/engraving/` + `production/printing/`
+- [x] #11 Playing mat design — `design/mat/mat-design-final.png` (PR #20)
+- [ ] #6 Tile Design Concepts — 51 images generated, awaiting production compatibility review
+- [ ] #12 Tile rack design — spec done (`design/racks/tile-rack-design-spec.md`), needs image
+- [ ] #3 Competitor Analysis — deferred
+- [ ] #5 User Personas — deferred
+- [ ] #8 Business Model Canvas — deferred
+
+### Phase 2: Design & Prototyping
+- [ ] #13 Dice design — spec done (`design/dice/dice-design-spec.md`), needs image
+- [ ] #14 Trinkets & accessories — spec done (`design/trinkets/trinkets-design-spec.md`), needs image
+- [ ] #17 Adapt tile designs for UV printer — audit against eufyMake E1 specs (next)
+- [ ] #18 Adapt tile designs for laser engraver — audit against xTool F2 Ultra UV specs (next)
+- [ ] #21 Social media teaser image — 3 variants generated (square, story, landscape) in PR #20
 - [ ] Tile mockups, playtesting simulations
 - [ ] Digital prototype (medium TBD)
-- [ ] #13 Dice design concepts
-- [ ] #14 Trinkets & accessories design concepts
-- [ ] #17 Adapt tile designs for UV printer output (1440 DPI PNG, CMYKWG color)
-- [ ] #18 Adapt tile designs for laser engraver output (SVG vector, xTool Studio templates)
-- [ ] #21 Social media teaser image (tablescape)
 
 ### Phase 3: Ecommerce Setup
-- [ ] #22 Shopify store setup & domain configuration
+- [ ] #22 Shopify store setup & domain — account created, domain purchased, awaiting DNS propagation
 - [ ] #23 Storefront theme design & brand customization
 - [ ] #24 Product catalog & listings
 - [ ] #25 Payment processing & checkout optimization
@@ -37,17 +43,17 @@
 - [ ] #32 Launch marketing plan & go-live
 
 ## Repository Structure
-- `README.md` - Vision
-- `rules/gameplay-rules.md` - Complete rules
-- `/design/moodboard/` - All 37 moodboard images (rangoli, temples, peacock, spice)
-- `/design/tiles/` - Tile designs, generation script, and art spec
-- `/design/mat/` - Playing mat design
-- `/design/racks/` - Tile rack design
-- `/design/dice/` - Dice design
-- `/design/trinkets/` - Trinkets & accessories design
-- `/production/engraving/` - xTool F2 Ultra UV laser engraver specs
-- `/production/printing/` - eufyMake E1 UV printer specs
-- `/research/` - Competitor analysis and user research (placeholder)
-- `/business/` - Business model and plans (placeholder)
-
-**All files pushed and ready for local clone.** Sync with Google Drive as needed. Let's make Maharahjong a reality! 🀄🇮🇳
+- `README.md` — Vision + tile generation script usage
+- `AGENTS.md` — Agent instructions (Grok for images)
+- `rules/gameplay-rules.md` — Complete rules v0.1
+- `/design/moodboard/` — 37 moodboard images (rangoli, temples, peacock, spice)
+- `/design/tiles/` — 51 tile images, `generate_tiles.py`, `tile-design-spec.md`
+- `/design/mat/` — Mat design final + spec + `generate_mat.py`
+- `/design/racks/` — Tile rack design spec
+- `/design/dice/` — Dice design spec
+- `/design/trinkets/` — Trinkets & accessories design spec
+- `/design/marketing/` — Social media teaser images (square, story, landscape)
+- `/production/engraving/` — xTool F2 Ultra UV laser engraver spec
+- `/production/printing/` — eufyMake E1 UV printer spec
+- `/research/` — Competitor analysis and user research (placeholder)
+- `/business/` — Business model and plans (placeholder)
