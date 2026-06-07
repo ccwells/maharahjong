@@ -10,16 +10,24 @@
 - [ ] #3 Competitor Analysis
 - [ ] #5 User Personas
 - [ ] #8 Business Model Canvas
+- [ ] #11 Playing mat design concepts
+- [ ] #12 Tile rack design concepts
 
 ### Phase 2: Design & Prototyping (Next)
 - [ ] Tile mockups, playtesting simulations
 - [ ] Digital prototype (medium TBD)
+- [ ] #13 Dice design concepts
+- [ ] #14 Trinkets & accessories design concepts
 
 ## Repository Structure
 - `README.md` - Vision
 - `rules/gameplay-rules.md` - Complete rules
 - `/design/moodboard/` - All 37 moodboard images (rangoli, temples, peacock, spice)
-- `/design/tiles/` - Tile concept artwork (placeholder)
+- `/design/tiles/` - Tile designs, generation script, and art spec
+- `/design/mat/` - Playing mat design (placeholder)
+- `/design/racks/` - Tile rack design (placeholder)
+- `/design/dice/` - Dice design (placeholder)
+- `/design/trinkets/` - Trinkets & accessories design (placeholder)
 - `/research/` - Competitor analysis and user research (placeholder)
 - `/business/` - Business model and plans (placeholder)
 
