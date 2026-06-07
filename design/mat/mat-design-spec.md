@@ -30,7 +30,8 @@ Differentiate from the reference by incorporating the Maharahjong visual identit
 - Inner border: geometric line frame with diamond accents at midpoints of each side (referencing the moodboard's framing lines)
 
 **Center medallion**
-- The Maharahjong lotus-peacock hybrid logo (same motif as the tile back design) centered in a rotated-square (diamond) frame
+- A majestic Indian elephant in gold line art, facing forward, decorated with ceremonial regalia (howdah, jeweled headpiece, draped textiles, henna-style body patterns) — inspired by Rajasthani and Mughal elephant paintings
+- Centered within a rotated-square (diamond) frame
 - Surrounded by a rangoli mandala ring — concentric circles of lotus petals and peacock-feather eyes in gold line art
 - The diamond frame sits inside a subtle, larger square outline that defines the wall-building area during gameplay
 
