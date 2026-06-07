@@ -12,12 +12,12 @@
 - [ ] #8 Business Model Canvas
 
 ### Phase 2: Design & Prototyping (Next)
-- Tile mockups, playtesting simulations
-- Digital prototype
+- [ ] Tile mockups, playtesting simulations
+- [ ] Digital prototype (medium TBD)
 
 ## Repository Structure
 - `README.md` - Vision
-- `RULES.md` - Complete rules
+- `rules/gameplay-rules.md` - Complete rules
 - `/design/moodboard/` - All 37 moodboard images (rangoli, temples, peacock, spice)
 - `/design/tiles/` - Tile concept artwork (placeholder)
 - `/research/` - Competitor analysis and user research (placeholder)
