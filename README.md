@@ -31,7 +31,23 @@ python3 design/tiles/generate_tiles.py --skip-existing
 
 See `design/tiles/tile-design-spec.md` for the full art direction and prompt details.
 
-## Artifacts
-All mood boards, tile designs, rules, and plans are here.
+## Mat Design Generation
+```bash
+# Generate mat design variants
+python3 design/mat/generate_mat.py --variants 3
+```
+
+## Project Structure
+- `rules/gameplay-rules.md` — Game rules v0.1
+- `design/tiles/` — 51 tile images + generation script + art spec
+- `design/mat/` — Playing mat design + generation script
+- `design/racks/` — Tile rack design spec
+- `design/dice/` — Dice design spec (antique brass)
+- `design/trinkets/` — Trinkets & accessories spec (brass tokens)
+- `design/marketing/` — Social media teaser images
+- `design/tile-blanks-spec.md` — Tile blank sourcing (3 suppliers)
+- `production/` — Equipment specs (xTool laser, eufyMake printer) + production audit
+
+See `PROJECT-PLAN.md` for full task tracking and current status.
 
 See Google Drive for high-res files: https://drive.google.com/drive/folders/1BGU8itF4Ah9BdL0AtKzQUNMFCiG10iSm

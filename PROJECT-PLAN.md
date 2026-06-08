@@ -1,9 +1,9 @@
 # Project Maharahjong Development Plan
 
-## Current Status (Updated 2026-06-07)
-- **Active branch**: `design-playing-mat` (PR #20 open — mat, teasers, Phase 3 plan)
+## Current Status (Updated 2026-06-08)
+- **Active branch**: `design-playing-mat` (PR #20 open)
 - **Blocked on**: Shopify domain propagation (maharahjong.com purchased, awaiting DNS)
-- **Next up**: Audit tile designs against production equipment specs (#17, #18)
+- **Next up**: Order prototype tile blanks from Amazon; contact Jayi/Promlogo for custom samples; fix tile aspect ratio
 - **Deferred**: #3, #5, #8 (business/research tasks — on hold until game design is finished)
 
 ## Phases & Milestones
@@ -14,7 +14,7 @@
 - [x] #7 Initial Rules Draft — `rules/gameplay-rules.md` v0.1
 - [x] #16 Production equipment specs — `production/engraving/` + `production/printing/`
 - [x] #11 Playing mat design — `design/mat/mat-design-final.png` (PR #20)
-- [ ] #6 Tile Design Concepts — 51 images generated, awaiting production compatibility review
+- [ ] #6 Tile Design Concepts — 51 images generated; production audit complete (see `production/tile-production-audit.md`)
 - [ ] #12 Tile rack design — spec done (`design/racks/tile-rack-design-spec.md`), needs image
 - [ ] #3 Competitor Analysis — deferred
 - [ ] #5 User Personas — deferred
@@ -23,9 +23,10 @@
 ### Phase 2: Design & Prototyping
 - [ ] #13 Dice design — spec done (`design/dice/dice-design-spec.md`), needs image
 - [ ] #14 Trinkets & accessories — spec done (`design/trinkets/trinkets-design-spec.md`), needs image
-- [ ] #17 Adapt tile designs for UV printer — audit against eufyMake E1 specs (next)
-- [ ] #18 Adapt tile designs for laser engraver — audit against xTool F2 Ultra UV specs (next)
+- [ ] #17 Adapt tile designs for UV printer — audit done, action items: fix aspect ratio (3:4→32:23), CMYK test strips, transparent backgrounds
+- [ ] #18 Adapt tile designs for laser engraver — audit done, action items: create SVG engraving overlays, test print-then-engrave workflow
 - [ ] #21 Social media teaser image — 3 variants generated (square, story, landscape) in PR #20
+- [ ] Tile blank material selection — sourcing spec done (`design/tile-blanks-spec.md`), 3 suppliers evaluated
 - [ ] Tile mockups, playtesting simulations
 - [ ] Digital prototype (medium TBD)
 
@@ -43,7 +44,7 @@
 - [ ] #32 Launch marketing plan & go-live
 
 ## Repository Structure
-- `README.md` — Vision + tile generation script usage
+- `README.md` — Vision + generation script usage
 - `AGENTS.md` — Agent instructions (Grok for images)
 - `rules/gameplay-rules.md` — Complete rules v0.1
 - `/design/moodboard/` — 37 moodboard images (rangoli, temples, peacock, spice)
@@ -53,7 +54,9 @@
 - `/design/dice/` — Dice design spec
 - `/design/trinkets/` — Trinkets & accessories design spec
 - `/design/marketing/` — Social media teaser images (square, story, landscape)
+- `/design/tile-blanks-spec.md` — Tile blank sourcing: 3 suppliers, material comparison, next steps
 - `/production/engraving/` — xTool F2 Ultra UV laser engraver spec
 - `/production/printing/` — eufyMake E1 UV printer spec
+- `/production/tile-production-audit.md` — Compatibility audit: tiles vs. both machines
 - `/research/` — Competitor analysis and user research (placeholder)
 - `/business/` — Business model and plans (placeholder)
