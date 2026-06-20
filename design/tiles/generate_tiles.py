@@ -8,6 +8,10 @@ Usage:
     python3 design/tiles/generate_tiles.py               # generate all tiles
     python3 design/tiles/generate_tiles.py --category suit-lotus  # one category
     python3 design/tiles/generate_tiles.py --dry-run      # print prompts only
+
+After generating, run fix_aspect_ratio.py to center-crop the output to the exact
+32x23mm tile-face proportion (the API only returns standard aspect ratios):
+    python3 design/tiles/fix_aspect_ratio.py
 """
 
 import argparse
@@ -22,7 +26,10 @@ from pathlib import Path
 
 API_URL = "https://api.x.ai/v1/images/generations"
 MODEL = "grok-imagine-image-quality"
-ASPECT_RATIO = "3:4"  # closest to 32×23mm tile face (1.39:1)
+# The Grok API returns standard ratios only; 3:4 (0.750) is the closest portrait
+# ratio to the 32×23mm tile face (target 23:32 = 0.719). Run fix_aspect_ratio.py
+# afterward to center-crop the output to the exact tile-face proportion for print.
+ASPECT_RATIO = "3:4"  # closest standard portrait ratio to the 32×23mm tile face
 RESOLUTION = "2k"
 TILES_DIR = Path(__file__).parent
 

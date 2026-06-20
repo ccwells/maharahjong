@@ -29,6 +29,16 @@ python3 design/tiles/generate_tiles.py --dry-run
 python3 design/tiles/generate_tiles.py --skip-existing
 ```
 
+After generating, crop the tiles to the exact 32×23mm tile-face proportion for printing (outputs to `design/tiles/print-ready/`, originals preserved):
+
+```bash
+# Uses Pillow if installed, otherwise falls back to macOS `sips`
+python3 design/tiles/fix_aspect_ratio.py
+
+# Preview the planned crops without writing files
+python3 design/tiles/fix_aspect_ratio.py --dry-run
+```
+
 See `design/tiles/tile-design-spec.md` for the full art direction and prompt details.
 
 ## Mat Design Generation
