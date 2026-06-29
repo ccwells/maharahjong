@@ -116,7 +116,7 @@
 |---|-------|---------|--------|
 | 4 | Aspect ratio mismatch (3:4 vs 32:23) | UV printer | ✅ Resolved — `fix_aspect_ratio.py` crops to exact 32:23 (`print-ready/`) |
 | 5 | RGB→CMYK color shift | UV printer | Print color test strips; adjust teal/purple values if needed |
-| 6 | Transparent backgrounds | UV printer | Re-export option for transparent PNG versions |
+| 6 | Transparent backgrounds | UV printer | ✅ Resolved (2026-06-29) — `export_transparent.py` removes ivory/cream BG via dual-constraint BFS flood-fill; 51 transparent PNGs in `design/tiles/transparent/` |
 
 ### Nice to have
 | # | Issue | Affects | Action |

@@ -39,6 +39,19 @@ python3 design/tiles/fix_aspect_ratio.py
 python3 design/tiles/fix_aspect_ratio.py --dry-run
 ```
 
+For UV printing onto pre-coloured tile blanks, export versions with the ivory/cream background replaced by alpha transparency (outputs to `design/tiles/transparent/`, print-ready originals preserved):
+
+```bash
+# Requires Pillow (pip install Pillow)
+python3.10 design/tiles/export_transparent.py
+
+# Preview the list of tiles without writing files
+python3.10 design/tiles/export_transparent.py --dry-run
+
+# Tune background removal if needed
+python3.10 design/tiles/export_transparent.py --rel-tolerance 30 --abs-tolerance 70
+```
+
 See `design/tiles/tile-design-spec.md` for the full art direction and prompt details.
 
 ## Mat Design Generation
@@ -50,10 +63,12 @@ python3 design/mat/generate_mat.py --variants 3
 ## Project Structure
 - `rules/gameplay-rules.md` — Game rules v0.1
 - `design/tiles/` — 51 tile images + generation script + art spec
+  - `print-ready/` — aspect-ratio corrected PNGs (32:23) for UV printing
+  - `transparent/` — transparent-background PNGs for pre-coloured tile blanks
 - `design/mat/` — Playing mat design + generation script
-- `design/racks/` — Tile rack design spec
-- `design/dice/` — Dice design spec (antique brass)
-- `design/trinkets/` — Trinkets & accessories spec (brass tokens)
+- `design/racks/` — Tile rack design spec + 3 reference images
+- `design/dice/` — Dice design spec + 3 reference images
+- `design/trinkets/` — Trinkets & accessories spec + flat-lay and coin close-up
 - `design/marketing/` — Social media teaser images
 - `design/tile-blanks-spec.md` — Tile blank sourcing (3 suppliers)
 - `production/` — Equipment specs (xTool laser, eufyMake printer) + production audit
