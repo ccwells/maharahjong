@@ -44,6 +44,10 @@
 {%- endcomment -%}
 
 <style>
+/* The .mrj full-bleed breakout uses 100vw, which includes the scrollbar
+   width — clip the few px of horizontal overflow that would otherwise
+   produce a horizontal scrollbar. */
+body { overflow-x: clip; }
 .mrj {
   --navy: #0e1a3a; --navy-deep: #0a1330; --indigo: #1a2a5c;
   --gold: #c8a24a; --gold-bright: #e0c074; --ivory: #f6f0e2; --ivory-soft: #efe7d4;
@@ -53,6 +57,11 @@
   --sans: 'Jost', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   color: var(--ivory); font-family: var(--sans); line-height: 1.6;
   background: var(--navy-deep);
+  /* Full-bleed breakout: escape the theme's fixed-width page container so
+     backgrounds span the whole viewport on large screens. Inner content is
+     still centered and capped by .wrap (max-width 1160px). */
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
 }
 .mrj * { box-sizing: border-box; }
 .mrj a { color: inherit; text-decoration: none; }
