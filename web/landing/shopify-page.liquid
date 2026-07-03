@@ -320,6 +320,23 @@ body { overflow-x: clip; }
     </div>
   </section>
 
+  <!-- SIGNUP SUCCESS FEEDBACK: Shopify redirects to /?customer_posted=true
+       after a successful customer form post; show confirmation + hide forms. -->
+  <script>
+  (function () {
+    if (!new URLSearchParams(location.search).has('customer_posted')) return;
+    document.querySelectorAll('.mrj form').forEach(function (f) {
+      var d = document.createElement('div');
+      d.className = 'mrj-success';
+      d.textContent = "Welcome — you're on the Founding Edition list. We'll be in touch.";
+      f.parentNode.insertBefore(d, f);
+      f.style.display = 'none';
+    });
+    var h = document.querySelector('.mrj-hero');
+    if (h) h.scrollIntoView({ block: 'start' });
+  })();
+  </script>
+
   <!-- FOOTER -->
   <footer class="mrj-footer">
     <div class="wrap">
