@@ -48,6 +48,12 @@
    width — clip the few px of horizontal overflow that would otherwise
    produce a horizontal scrollbar. */
 body { overflow-x: clip; }
+/* Hide the theme's auto-generated page title above the hero (our hero has
+   its own H1) and collapse the emptied wrapper's spacing. The second rule
+   is a fallback pinned to the specific Horizon text block. */
+.shopify-section:has(.mrj) h1:not(.mrj h1) { display: none !important; }
+.text-block--AYVNtOFBOS0JPekIrd__heading { display: none !important; }
+.shopify-section:has(.mrj) .section-content-wrapper { padding-top: 0 !important; padding-bottom: 0 !important; }
 .mrj {
   --navy: #0e1a3a; --navy-deep: #0a1330; --indigo: #1a2a5c;
   --gold: #c8a24a; --gold-bright: #e0c074; --ivory: #f6f0e2; --ivory-soft: #efe7d4;
