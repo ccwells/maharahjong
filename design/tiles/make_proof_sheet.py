@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """Generate a print-proof PDF of all 51 Maharahjong tile designs.
 
-Each tile is reproduced at its exact physical printed size (32 × 23 mm) on
-A4 landscape pages (297 × 210 mm) at 300 DPI.  All 51 tiles fit on a single
-page in an 8 × 7 grid.  Tiles are grouped and ordered by category; a
-thin rule separates each group.
+Each tile is reproduced at its exact physical printed size (23 mm wide ×
+32 mm tall, portrait — matching the print-ready exports) on A4 landscape
+pages (297 × 210 mm) at 300 DPI.  All 51 tiles fit on a single page in an
+11 × 5 grid.  Tiles are grouped and ordered by category; a thin rule
+separates each group.
 
 Source:  design/tiles/print-ready/   (default — ivory/cream background)
 Output:  design/tiles/proof-sheet.pdf
@@ -30,7 +31,7 @@ DEFAULT_OUT = TILES_DIR / "proof-sheet.pdf"
 # Physical dimensions (mm)
 # ---------------------------------------------------------------------------
 PAGE_W_MM, PAGE_H_MM = 297.0, 210.0   # A4 landscape
-TILE_W_MM, TILE_H_MM = 32.0, 23.0    # physical tile face
+TILE_W_MM, TILE_H_MM = 23.0, 32.0    # physical tile face — portrait (23:32)
 MARGIN_MM = 5.0
 COL_GAP_MM = 1.5
 ROW_GAP_MM = 1.0
@@ -186,8 +187,8 @@ def build_page(
         font=font_title,
     )
 
-    # Subtitle: "32 × 23 mm · actual print size · 300 DPI"
-    sub_text = f"32 × 23 mm · actual print size · {dpi} DPI · {len(tiles)} tiles"
+    # Subtitle: "23 × 32 mm (portrait) · actual print size · 300 DPI"
+    sub_text = f"23 × 32 mm (portrait) · actual print size · {dpi} DPI · {len(tiles)} tiles"
     draw.text(
         (margin, margin + title_h + round(1.5 * px)),
         sub_text,
@@ -232,10 +233,16 @@ def build_page(
         with Image.open(tile_path) as tile_img:
             # Paste onto a white background first (handles transparent tiles)
             bg = Image.new("RGB", (tile_w, tile_h), (255, 255, 255))
-            thumb = tile_img.convert("RGBA").resize(
-                (tile_w, tile_h), Image.LANCZOS
-            )
-            bg.paste(thumb, mask=thumb.split()[3])
+            rgba = tile_img.convert("RGBA")
+            # Aspect-preserving fit: never stretch. print-ready tiles are
+            # exactly 23:32 and fill the box; other sources (e.g. 3:4
+            # originals) are scaled to fit and centered.
+            scale = min(tile_w / rgba.width, tile_h / rgba.height)
+            new_w = max(1, round(rgba.width * scale))
+            new_h = max(1, round(rgba.height * scale))
+            thumb = rgba.resize((new_w, new_h), Image.LANCZOS)
+            off = ((tile_w - new_w) // 2, (tile_h - new_h) // 2)
+            bg.paste(thumb, off, mask=thumb.split()[3])
             page.paste(bg, (x0, y0))
 
         # ── Thin border around tile ────────────────────────────────────────
