@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Maharajong — Founding Edition | Four traditions, one table</title>
+<meta name="description" content="Maharajong is a premium Indian-fusion mahjong set blending Chinese, Japanese and American mahjong with Indian Rummy, rangoli artistry and Vedic symbols. Join the Founding Edition waitlist." />
+
+<!-- Open Graph / social -->
+<meta property="og:title" content="Maharajong — Founding Edition" />
+<meta property="og:description" content="Four traditions, one table. A premium Indian-fusion mahjong set. Join the Founding Edition waitlist." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://maharajong.com/" />
+<meta property="og:image" content="../../design/marketing/hero/og-image.png" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Playfair+Display:wght@600;700;800&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+<style>
+  :root {
+    --navy: #0e1a3a;
+    --navy-deep: #0a1330;
+    --indigo: #1a2a5c;
+    --gold: #c8a24a;
+    --gold-bright: #e0c074;
+    --ivory: #f6f0e2;
+    --ivory-soft: #efe7d4;
+    --ink: #12183a;
+    --muted: #b9c0d8;
+    --serif-display: 'Playfair Display', Georgia, serif;
+    --serif-body: 'Cormorant Garamond', Georgia, serif;
+    --sans: 'Jost', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: var(--sans);
+    color: var(--ivory);
+    background: var(--navy-deep);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a { color: inherit; text-decoration: none; }
+
+  .wrap { width: 100%; max-width: 1160px; margin: 0 auto; padding: 0 28px; }
+
+  h1, h2, h3 { font-family: var(--serif-display); font-weight: 700; line-height: 1.15; }
+
+  .eyebrow {
+    font-family: var(--sans);
+    font-weight: 500;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    font-size: 0.72rem;
+    color: var(--gold-bright);
+  }
+
+  .rangoli-rule {
+    display: flex; align-items: center; justify-content: center;
+    gap: 14px; margin: 0 auto;
+    color: var(--gold);
+  }
+  .rangoli-rule::before, .rangoli-rule::after {
+    content: ""; height: 1px; width: 60px;
+    background: linear-gradient(90deg, transparent, var(--gold));
+  }
+  .rangoli-rule::after { background: linear-gradient(90deg, var(--gold), transparent); }
+  .rangoli-rule .dot { font-size: 1rem; letter-spacing: 6px; }
+
+  /* ---------- NAV ---------- */
+  nav {
+    position: sticky; top: 0; z-index: 50;
+    background: rgba(10, 19, 48, 0.86);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(200, 162, 74, 0.22);
+  }
+  .nav-inner {
+    display: flex; align-items: center; justify-content: space-between;
+    height: 68px;
+  }
+  .logo {
+    font-family: var(--serif-display);
+    font-weight: 800;
+    font-size: 1.4rem;
+    letter-spacing: 0.02em;
+    color: var(--ivory);
+  }
+  .logo span { color: var(--gold-bright); }
+  .nav-links { display: flex; align-items: center; gap: 30px; }
+  .nav-links a.link {
+    font-size: 0.86rem; font-weight: 400; letter-spacing: 0.04em;
+    color: var(--muted); transition: color 0.2s;
+  }
+  .nav-links a.link:hover { color: var(--ivory); }
+
+  .btn {
+    display: inline-block;
+    font-family: var(--sans);
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    padding: 12px 26px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: transform 0.15s, box-shadow 0.2s, background 0.2s;
+  }
+  .btn-gold {
+    background: linear-gradient(135deg, var(--gold-bright), var(--gold));
+    color: var(--navy-deep);
+    border: 1px solid var(--gold-bright);
+    box-shadow: 0 6px 22px rgba(200, 162, 74, 0.28);
+  }
+  .btn-gold:hover { transform: translateY(-1px); box-shadow: 0 10px 30px rgba(200, 162, 74, 0.42); }
+  .btn-outline {
+    background: transparent; color: var(--ivory);
+    border: 1px solid rgba(200, 162, 74, 0.55);
+  }
+  .btn-outline:hover { border-color: var(--gold-bright); color: var(--gold-bright); }
+
+  @media (max-width: 720px) {
+    .nav-links a.link { display: none; }
+  }
+
+  /* ---------- HERO ---------- */
+  .hero {
+    position: relative;
+    min-height: 640px;
+    display: flex; align-items: center;
+    background:
+      linear-gradient(90deg, rgba(10,19,48,0.94) 0%, rgba(10,19,48,0.78) 42%, rgba(10,19,48,0.30) 100%),
+      url('../../design/marketing/hero/hero-banner.png') center right / cover no-repeat,
+      var(--navy);
+    overflow: hidden;
+  }
+  .hero .wrap { position: relative; z-index: 2; padding-top: 70px; padding-bottom: 70px; }
+  .hero-content { max-width: 620px; }
+  .hero h1 {
+    font-size: clamp(2.6rem, 6vw, 4.4rem);
+    letter-spacing: 0.01em;
+    margin: 18px 0 6px;
+  }
+  .hero h1 .accent { color: var(--gold-bright); }
+  .hero .subhead {
+    font-family: var(--serif-body);
+    font-size: clamp(1.25rem, 2.4vw, 1.7rem);
+    color: var(--ivory-soft);
+    font-weight: 400;
+    margin: 16px 0 30px;
+    max-width: 520px;
+  }
+  .hero-form { display: flex; gap: 10px; flex-wrap: wrap; max-width: 480px; }
+  .hero-form input[type="email"] {
+    flex: 1 1 220px;
+    padding: 13px 16px;
+    border-radius: 2px;
+    border: 1px solid rgba(200, 162, 74, 0.5);
+    background: rgba(255,255,255,0.06);
+    color: var(--ivory);
+    font-family: var(--sans);
+    font-size: 0.95rem;
+  }
+  .hero-form input[type="email"]::placeholder { color: #9aa2bd; }
+  .hero-form input[type="email"]:focus { outline: none; border-color: var(--gold-bright); background: rgba(255,255,255,0.1); }
+  .hero-note { margin-top: 14px; font-size: 0.8rem; color: var(--muted); letter-spacing: 0.02em; }
+
+  /* ---------- SECTION BASE ---------- */
+  section.block { padding: 96px 0; }
+  .section-head { text-align: center; max-width: 720px; margin: 0 auto 56px; }
+  .section-head h2 { font-size: clamp(2rem, 4vw, 2.9rem); margin: 16px 0 18px; }
+  .section-head p {
+    font-family: var(--serif-body);
+    font-size: 1.28rem; color: var(--ivory-soft); font-weight: 400;
+  }
+
+  /* ---------- STORY ---------- */
+  .story { background: var(--navy); }
+  .traditions {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px;
+    margin-top: 20px;
+  }
+  .tradition {
+    background: linear-gradient(160deg, rgba(26,42,92,0.55), rgba(14,26,58,0.55));
+    border: 1px solid rgba(200,162,74,0.2);
+    border-radius: 4px;
+    padding: 28px 22px;
+    text-align: center;
+  }
+  .tradition .num {
+    font-family: var(--serif-display); color: var(--gold-bright);
+    font-size: 1.5rem; margin-bottom: 8px;
+  }
+  .tradition h3 { font-size: 1.15rem; margin-bottom: 8px; color: var(--ivory); }
+  .tradition p { font-size: 0.9rem; color: var(--muted); font-family: var(--sans); line-height: 1.5; }
+  @media (max-width: 860px) { .traditions { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 460px) { .traditions { grid-template-columns: 1fr; } }
+
+  /* ---------- SHOWCASE ---------- */
+  .showcase { background: var(--navy-deep); }
+  .strip {
+    width: 100%; border-radius: 4px; overflow: hidden;
+    margin: 0 auto 56px; max-width: 1160px;
+    border: 1px solid rgba(200,162,74,0.22);
+    box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+  }
+  .strip img { display: block; width: 100%; height: auto; }
+  .tile-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 26px; }
+  .tile-card { text-align: center; }
+  .tile-frame {
+    aspect-ratio: 23 / 32;
+    border-radius: 8px;
+    overflow: hidden;
+    background: linear-gradient(160deg, #16224a, #0d1734);
+    border: 1px solid rgba(200,162,74,0.35);
+    box-shadow: 0 14px 34px rgba(0,0,0,0.45);
+    padding: 10px;
+    transition: transform 0.25s, box-shadow 0.25s;
+  }
+  .tile-card:hover .tile-frame { transform: translateY(-6px); box-shadow: 0 22px 48px rgba(0,0,0,0.6); }
+  .tile-frame img { width: 100%; height: 100%; object-fit: contain; border-radius: 4px; }
+  .tile-card .cap-name {
+    font-family: var(--serif-display); font-size: 1.05rem; color: var(--gold-bright);
+    margin: 16px 0 4px;
+  }
+  .tile-card .cap-desc { font-size: 0.82rem; color: var(--muted); letter-spacing: 0.02em; }
+  @media (max-width: 860px) { .tile-grid { grid-template-columns: repeat(2, 1fr); gap: 20px; } }
+
+  /* ---------- BOX ---------- */
+  .box { background: var(--indigo); background: linear-gradient(180deg, var(--navy), var(--indigo)); }
+  .box-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  .box-item {
+    display: flex; gap: 16px; align-items: flex-start;
+    padding: 24px; border-radius: 4px;
+    background: rgba(10,19,48,0.5);
+    border: 1px solid rgba(200,162,74,0.18);
+  }
+  .box-item .mark {
+    font-family: var(--serif-display); color: var(--gold-bright);
+    font-size: 1.6rem; line-height: 1; flex-shrink: 0; width: 34px; text-align: center;
+  }
+  .box-item h3 { font-size: 1.05rem; margin-bottom: 5px; color: var(--ivory); }
+  .box-item p { font-size: 0.88rem; color: var(--muted); font-family: var(--sans); line-height: 1.5; }
+  .box-item .prov { display: inline-block; margin-top: 6px; font-size: 0.72rem; color: var(--gold); font-style: italic; }
+  .box-disclaimer {
+    margin-top: 34px; text-align: center; font-size: 0.85rem;
+    color: var(--muted); font-style: italic;
+  }
+  @media (max-width: 860px) { .box-grid { grid-template-columns: 1fr; } }
+
+  /* ---------- HOW IT PLAYS ---------- */
+  .play { background: var(--navy-deep); }
+  .steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; counter-reset: step; }
+  .step { position: relative; padding-top: 8px; }
+  .step .step-num {
+    font-family: var(--serif-display); font-weight: 800;
+    font-size: 2.6rem; color: rgba(200,162,74,0.85);
+    line-height: 1; margin-bottom: 14px;
+  }
+  .step h3 { font-size: 1.15rem; margin-bottom: 8px; color: var(--ivory); }
+  .step p { font-size: 0.9rem; color: var(--muted); font-family: var(--sans); line-height: 1.55; }
+  .step .term { color: var(--gold-bright); font-weight: 500; }
+  @media (max-width: 860px) { .steps { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 460px) { .steps { grid-template-columns: 1fr; } }
+
+  /* ---------- SIGNUP ---------- */
+  .signup {
+    background:
+      radial-gradient(circle at 50% 0%, rgba(200,162,74,0.14), transparent 55%),
+      var(--navy);
+    text-align: center;
+  }
+  .signup-card {
+    max-width: 640px; margin: 0 auto;
+    padding: 8px;
+  }
+  .signup h2 { font-size: clamp(2rem, 4vw, 3rem); margin: 18px 0 14px; }
+  .signup p.lead {
+    font-family: var(--serif-body); font-size: 1.3rem; color: var(--ivory-soft);
+    margin-bottom: 32px;
+  }
+  .signup-form { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; max-width: 500px; margin: 0 auto; }
+  .signup-form input[type="email"] {
+    flex: 1 1 240px;
+    padding: 14px 18px; border-radius: 2px;
+    border: 1px solid rgba(200,162,74,0.5);
+    background: rgba(255,255,255,0.06); color: var(--ivory);
+    font-family: var(--sans); font-size: 0.98rem;
+  }
+  .signup-form input[type="email"]::placeholder { color: #9aa2bd; }
+  .signup-form input[type="email"]:focus { outline: none; border-color: var(--gold-bright); background: rgba(255,255,255,0.1); }
+  .signup-note { margin-top: 16px; font-size: 0.8rem; color: var(--muted); }
+  .form-success {
+    display: none; margin-top: 20px; padding: 14px 18px;
+    border: 1px solid rgba(200,162,74,0.5); border-radius: 3px;
+    background: rgba(200,162,74,0.1); color: var(--gold-bright);
+    font-family: var(--serif-body); font-size: 1.15rem;
+  }
+  .form-success.show { display: block; }
+
+  /* ---------- FAQ ---------- */
+  .faq { background: var(--navy-deep); }
+  .faq-list { max-width: 780px; margin: 0 auto; }
+  .faq-item { border-bottom: 1px solid rgba(200,162,74,0.2); }
+  .faq-q {
+    width: 100%; text-align: left; background: none; border: none; cursor: pointer;
+    padding: 24px 40px 24px 0; position: relative;
+    font-family: var(--serif-display); font-weight: 600; font-size: 1.25rem; color: var(--ivory);
+  }
+  .faq-q::after {
+    content: "+"; position: absolute; right: 4px; top: 50%; transform: translateY(-50%);
+    color: var(--gold-bright); font-size: 1.6rem; font-family: var(--sans); font-weight: 300;
+    transition: transform 0.2s;
+  }
+  .faq-item.open .faq-q::after { content: "–"; }
+  .faq-a {
+    max-height: 0; overflow: hidden; transition: max-height 0.3s ease, padding 0.3s ease;
+    color: var(--muted); font-family: var(--sans); font-size: 0.95rem; line-height: 1.65;
+  }
+  .faq-item.open .faq-a { max-height: 360px; padding: 0 0 24px; }
+
+  /* ---------- FOOTER ---------- */
+  footer {
+    background: var(--navy-deep);
+    border-top: 1px solid rgba(200,162,74,0.22);
+    padding: 54px 0 40px;
+  }
+  .footer-inner { display: flex; justify-content: space-between; align-items: flex-start; gap: 30px; flex-wrap: wrap; }
+  .footer-brand .logo { font-size: 1.5rem; margin-bottom: 10px; }
+  .footer-brand p { max-width: 340px; color: var(--muted); font-size: 0.88rem; }
+  .footer-links { display: flex; gap: 40px; flex-wrap: wrap; }
+  .footer-col h4 { font-family: var(--sans); font-size: 0.72rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); margin-bottom: 12px; }
+  .footer-col a { display: block; font-size: 0.88rem; color: var(--muted); margin-bottom: 8px; transition: color 0.2s; }
+  .footer-col a:hover { color: var(--ivory); }
+  .footer-bottom {
+    margin-top: 40px; padding-top: 22px; border-top: 1px solid rgba(255,255,255,0.06);
+    display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px;
+    font-size: 0.78rem; color: #7c85a6;
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<nav>
+  <div class="wrap nav-inner">
+    <a href="#top" class="logo">Maha<span>ra</span>jong</a>
+    <div class="nav-links">
+      <a class="link" href="#story">The Fusion</a>
+      <a class="link" href="#artwork">Artwork</a>
+      <a class="link" href="#box">In the Box</a>
+      <a class="link" href="#play">How It Plays</a>
+      <a class="btn btn-gold" href="#waitlist">Pre-order List</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero" id="top">
+  <div class="wrap">
+    <div class="hero-content">
+      <span class="eyebrow">The Founding Edition</span>
+      <h1>Four traditions,<br /><span class="accent">one table.</span></h1>
+      <p class="subhead">A premium Indian-fusion mahjong set — where the strategy of the East meets the color and celebration of India.</p>
+      <form class="hero-form" onsubmit="return handleSignup(event, 'hero-success')">
+        <input type="email" name="email" placeholder="Your email address" required aria-label="Email address" />
+        <button type="submit" class="btn btn-gold">Join the Waitlist</button>
+      </form>
+      <p class="hero-note">Be first to reserve a Founding Edition set. No payment today — just first access.</p>
+      <div class="form-success" id="hero-success">Welcome. You're on the Founding Edition list — we'll be in touch.</div>
+    </div>
+  </div>
+</header>
+
+<!-- ============ STORY ============ -->
+<section class="block story" id="story">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="rangoli-rule"><span class="dot">✦ ✦ ✦</span></div>
+      <h2>Four traditions, one table</h2>
+      <p>Mahjong has traveled the world for a century, gathering meaning at every table. Maharajong brings it home to India — braiding four great game traditions into one set, dressed in the art of rangoli and the depth of Vedic symbol.</p>
+    </div>
+    <div class="traditions">
+      <div class="tradition">
+        <div class="num">中</div>
+        <h3>Chinese</h3>
+        <p>The strategic heart — melds, pungs and kongs, and the flexible pursuit of a winning hand.</p>
+      </div>
+      <div class="tradition">
+        <div class="num">日</div>
+        <h3>Japanese</h3>
+        <p>Riichi discipline — the "Ready" declaration and the quiet art of defensive play.</p>
+      </div>
+      <div class="tradition">
+        <div class="num">★</div>
+        <h3>American</h3>
+        <p>The social Charleston pass and evolving hands that keep every player in the game.</p>
+      </div>
+      <div class="tradition">
+        <div class="num">॥</div>
+        <h3>Indian</h3>
+        <p>Rummy-style runs, festival scoring, and the warmth of an Indian card night.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ARTWORK SHOWCASE ============ -->
+<section class="block showcase" id="artwork">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">The Artwork</span>
+      <h2>152 tiles, each a small painting</h2>
+      <p>Every face is drawn in the spirit of temple relief and rangoli stencil — lotus and peacock, deity and festival, chakra and Vedic sign. Intricate up close, instantly readable in play.</p>
+    </div>
+    <div class="strip">
+      <img src="../../design/marketing/hero/tile-showcase-strip.png" alt="A strip of Maharajong tile artwork showing lotus, peacock, deity and festival designs" loading="lazy" />
+    </div>
+    <div class="tile-grid">
+      <div class="tile-card">
+        <div class="tile-frame"><img src="../../design/tiles/print-ready/honors/deity-garuda.png" alt="Garuda deity tile" loading="lazy" /></div>
+        <div class="cap-name">Garuda</div>
+        <div class="cap-desc">Deity of Power · honor tile</div>
+      </div>
+      <div class="tile-card">
+        <div class="tile-frame"><img src="../../design/tiles/print-ready/bonus-festival/festival-diwali.png" alt="Diwali festival rangoli tile" loading="lazy" /></div>
+        <div class="cap-name">Diwali</div>
+        <div class="cap-desc">Festival of Lights · rangoli bonus</div>
+      </div>
+      <div class="tile-card">
+        <div class="tile-frame"><img src="../../design/tiles/print-ready/suit-peacock/peacock-5.png" alt="Peacock feather five tile" loading="lazy" /></div>
+        <div class="cap-name">Peacock 5</div>
+        <div class="cap-desc">Peacock Feathers suit</div>
+      </div>
+      <div class="tile-card">
+        <div class="tile-frame"><img src="../../design/tiles/print-ready/bonus-chakra/chakra-anahata.png" alt="Anahata heart chakra wild tile" loading="lazy" /></div>
+        <div class="cap-name">Anahata</div>
+        <div class="cap-desc">Heart Chakra · wild tile</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ IN THE BOX ============ -->
+<section class="block box" id="box">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">The Set</span>
+      <h2>What's in the box</h2>
+      <p>A complete table for four, considered down to the last trinket.</p>
+    </div>
+    <div class="box-grid">
+      <div class="box-item">
+        <div class="mark">152</div>
+        <div>
+          <h3>Hand-finished tiles</h3>
+          <p>Three suits, honor winds and deities, plus rangoli festival and chakra bonus tiles — each face individually finished.</p>
+        </div>
+      </div>
+      <div class="box-item">
+        <div class="mark">1</div>
+        <div>
+          <h3>Silk-inspired playing mat</h3>
+          <p>A soft, sound-dampening surface with rangoli border detailing to frame the table.</p>
+        </div>
+      </div>
+      <div class="box-item">
+        <div class="mark">4</div>
+        <div>
+          <h3>Tile racks</h3>
+          <p>One per player, styled to match the set's navy-and-gold palette.</p>
+        </div>
+      </div>
+      <div class="box-item">
+        <div class="mark">2</div>
+        <div>
+          <h3>Dice</h3>
+          <p>For dealing and setup — finished in an antique-brass tone. <span class="prov">final quantity may vary</span></p>
+        </div>
+      </div>
+      <div class="box-item">
+        <div class="mark">✦</div>
+        <div>
+          <h3>Scoring trinkets</h3>
+          <p>Brass-style tokens for tracking points, wilds and the kitty. <span class="prov">final contents may vary</span></p>
+        </div>
+      </div>
+      <div class="box-item">
+        <div class="mark">✧</div>
+        <div>
+          <h3>Rules &amp; quick-start</h3>
+          <p>The full Maharajong rulebook plus a one-page guide to get four players seated fast.</p>
+        </div>
+      </div>
+    </div>
+    <p class="box-disclaimer">Maharajong is in active prototyping. Final contents, quantities and finishes may vary as we refine the set with our makers.</p>
+  </div>
+</section>
+
+<!-- ============ HOW IT PLAYS ============ -->
+<section class="block play" id="play">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">At the Table</span>
+      <h2>How it plays</h2>
+      <p>Familiar if you've played mahjong, welcoming if you haven't — four short beats to your first win.</p>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <h3>The Charleston</h3>
+        <p>Warm up by passing three tiles right, across and left — the <span class="term">Charleston</span>, borrowed from American mahjong and the passing games of an Indian card night.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <h3>Draw &amp; build</h3>
+        <p>Draw or claim a discard to form melds — pungs, kongs, and Rummy-style runs. Chakra wilds bend the rules for creative sets.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <h3>Declare Ready</h3>
+        <p>One tile from winning with a concealed hand? Declare <span class="term">Ready</span> for bonus points — and play defense as the wall runs down.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">4</div>
+        <h3>Call "Maharajah!"</h3>
+        <p>Complete four melds and a pair — or a special festival hand — and declare <span class="term">"Maharajah!"</span> to win the round in style.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SIGNUP ============ -->
+<section class="block signup" id="waitlist">
+  <div class="wrap">
+    <div class="signup-card">
+      <div class="rangoli-rule"><span class="dot">✦ ✦ ✦</span></div>
+      <span class="eyebrow">Founding Edition</span>
+      <h2>Reserve your place at the table</h2>
+      <p class="lead">Join the pre-order list to be first to reserve a Founding Edition Maharajong set — and to help shape it as it comes to life.</p>
+      <form class="signup-form" onsubmit="return handleSignup(event, 'waitlist-success')">
+        <input type="email" name="email" placeholder="Your email address" required aria-label="Email address" />
+        <button type="submit" class="btn btn-gold">Join the Pre-order List</button>
+      </form>
+      <p class="signup-note">No payment today. We'll email you when Founding Edition reservations open.</p>
+      <div class="form-success" id="waitlist-success">Welcome. You're on the Founding Edition list — we'll be in touch soon.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="block faq" id="faq">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Good to Know</span>
+      <h2>Questions &amp; answers</h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">When will Maharajong ship?</button>
+        <div class="faq-a"><p>We don't have a firm ship date yet — Maharajong is still in prototyping. Joining the pre-order list is the best way to hear about timing first, the moment it's set.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">How much will it cost?</button>
+        <div class="faq-a"><p>Pricing isn't finalized. As a premium, hand-finished set, Maharajong will be priced to match its craft — we'll share exact Founding Edition pricing with the waitlist before reservations open, with no obligation to buy.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">Where is it made?</button>
+        <div class="faq-a"><p>Honestly, we're still deciding. We're in active prototyping and evaluating specialist makers who can do justice to the artwork and finish. We'll be transparent about materials and manufacturing as those choices firm up.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">Do I need to know how to play mahjong?</button>
+        <div class="faq-a"><p>Not at all. Maharajong is designed to welcome newcomers while rewarding experienced players. The set includes a full rulebook and a one-page quick-start so four people can sit down and play.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">Is joining the list a commitment?</button>
+        <div class="faq-a"><p>No. The pre-order list is simply first access — no payment, no obligation. You'll hear from us as the set takes shape, and you can unsubscribe anytime.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">Is the design respectful of the traditions it draws on?</button>
+        <div class="faq-a"><p>That's our first commitment. Maharajong is a heartfelt fusion, and we render every symbol — Vedic, festival and deity — with care and reverence. We welcome feedback from the communities whose art and games inspire the set.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="logo">Maha<span style="color:var(--gold-bright)">ra</span>jong</div>
+        <p>A premium Indian-fusion mahjong set. Four traditions, one table.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <a href="#story">The Fusion</a>
+          <a href="#artwork">Artwork</a>
+          <a href="#box">In the Box</a>
+          <a href="#play">How It Plays</a>
+        </div>
+        <div class="footer-col">
+          <h4>Get Involved</h4>
+          <a href="#waitlist">Pre-order List</a>
+          <a href="#faq">FAQ</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Maharajong. All rights reserved.</span>
+      <span>maharajong.com · Currently in prototyping</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // FAQ accordion
+  function toggleFaq(btn) {
+    var item = btn.parentElement;
+    item.classList.toggle('open');
+  }
+
+  // Email capture (front-end demo — real capture handled by Shopify form in production)
+  function handleSignup(e, successId) {
+    e.preventDefault();
+    var form = e.target;
+    var email = form.querySelector('input[type="email"]').value;
+    if (!email) return false;
+    form.style.display = 'none';
+    var msg = document.getElementById(successId);
+    if (msg) msg.classList.add('show');
+    return false;
+  }
+
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
