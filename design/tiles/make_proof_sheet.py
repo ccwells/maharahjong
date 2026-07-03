@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate a print-proof PDF of all 51 Maharahjong tile designs.
+"""Generate a print-proof PDF of all 51 Maharajong tile designs.
 
 Each tile is reproduced at its exact physical printed size (23 mm wide ×
 32 mm tall, portrait — matching the print-ready exports) on A4 landscape
@@ -175,7 +175,7 @@ def build_page(
     draw = ImageDraw.Draw(page)
 
     # ── Title ──────────────────────────────────────────────────────────────
-    title_text = "Maharahjong — Tile Proof Sheet"
+    title_text = "Maharajong — Tile Proof Sheet"
     if total_pages > 1:
         title_text += f"  (page {page_num}/{total_pages})"
     title_bbox = draw.textbbox((0, 0), title_text, font=font_title)
@@ -271,7 +271,7 @@ def build_page(
 
 def main() -> int:
     ap = argparse.ArgumentParser(
-        description="Generate a print-proof PDF of all Maharahjong tile designs"
+        description="Generate a print-proof PDF of all Maharajong tile designs"
     )
     ap.add_argument(
         "--src",
