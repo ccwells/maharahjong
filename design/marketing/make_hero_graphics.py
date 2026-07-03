@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Composite marketing hero graphics for the Maharahjong pre-order landing page.
+"""Composite marketing hero graphics for the Maharajong pre-order landing page.
 
 Builds three images from existing tile / mat assets:
   1. hero-banner.png            2400x1000  - fanned tile arrangement, navy/gold, left 40% clear
@@ -520,7 +520,7 @@ def build_og_image() -> Image.Image:
     shadow_text = Image.new("RGBA", (BW, BH), (0, 0, 0, 0))
     std = ImageDraw.Draw(shadow_text)
     letter_spaced_text(
-        std, (text_x + int(4 * ss), title_y + int(4 * ss)), "MAHARAHJONG",
+        std, (text_x + int(4 * ss), title_y + int(4 * ss)), "MAHARAJONG",
         title_font, (0, 0, 0, 140), tracking=int(10 * ss),
     )
     shadow_text = shadow_text.filter(ImageFilter.GaussianBlur(3 * ss))
@@ -528,13 +528,13 @@ def build_og_image() -> Image.Image:
 
     draw = ImageDraw.Draw(canvas)
     tw, th = letter_spaced_text(
-        draw, (text_x, title_y), "MAHARAHJONG",
+        draw, (text_x, title_y), "MAHARAJONG",
         title_font, (*GOLD_BRIGHT, 255), tracking=int(10 * ss),
     )
 
     subtitle_y = title_y + int(th * 1.9)
     letter_spaced_text(
-        draw, (text_x, subtitle_y), "PRE-ORDER SOON  ·  MAHARAHJONG.COM",
+        draw, (text_x, subtitle_y), "PRE-ORDER SOON  ·  MAHARAJONG.COM",
         subtitle_font, (*IVORY, 235), tracking=int(4 * ss),
     )
 

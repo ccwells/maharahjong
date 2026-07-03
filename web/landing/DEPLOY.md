@@ -1,7 +1,7 @@
-# Deploying the Maharahjong Founding Edition landing page to Shopify
+# Deploying the Maharajong Founding Edition landing page to Shopify
 
 This guide takes the files in `web/landing/` and gets the pre-order landing page
-live on **maharahjong.com**, with working email capture. Estimated time: ~20 min.
+live on **maharajong.com**, with working email capture. Estimated time: ~20 min.
 
 Files in this folder:
 - `index.html` — standalone preview (open locally to see the design; not uploaded to Shopify)
@@ -35,11 +35,11 @@ flat filenames via `{{ '...' | asset_url }}`):
 ## Step 2 — Create the page from the Liquid template
 
 **Option A — dedicated template (recommended, no theme header/footer clutter):**
-1. Edit code → **Templates → Add a new template** → type **page** → **Liquid** → name **`maharahjong-landing`**.
+1. Edit code → **Templates → Add a new template** → type **page** → **Liquid** → name **`maharajong-landing`**.
 2. Replace the placeholder with the entire contents of `shopify-page.liquid`. Save.
-3. **Admin → Online Store → Pages → Add page.** Title: **Maharahjong**.
-4. In the right sidebar **Theme template** dropdown, choose **`page.maharahjong-landing`**. Save.
-5. Note the page handle (URL), e.g. `maharahjong.com/pages/maharahjong`.
+3. **Admin → Online Store → Pages → Add page.** Title: **Maharajong**.
+4. In the right sidebar **Theme template** dropdown, choose **`page.maharajong-landing`**. Save.
+5. Note the page handle (URL), e.g. `maharajong.com/pages/maharajong`.
 
 **Option B — Custom Liquid section (fastest, keeps theme chrome):**
 1. **Admin → Online Store → Themes → Customize.**
@@ -49,13 +49,13 @@ flat filenames via `{{ '...' | asset_url }}`):
 
 ## Step 3 — Set the page as the homepage
 
-So maharahjong.com opens directly on the landing page:
+So maharajong.com opens directly on the landing page:
 
 1. **Admin → Online Store → Preferences** — this is where the homepage/SEO title live,
    but the actual "homepage = this page" swap is done in the theme.
-2. Easiest reliable method: **Themes → Customize → (top page-selector dropdown) → Pages → Maharahjong**,
+2. Easiest reliable method: **Themes → Customize → (top page-selector dropdown) → Pages → Maharajong**,
    confirm it renders, then either:
-   - **Redirect approach:** Admin → Online Store → Navigation → **URL Redirects** → Add redirect: `/` → `/pages/maharahjong`, **or**
+   - **Redirect approach:** Admin → Online Store → Navigation → **URL Redirects** → Add redirect: `/` → `/pages/maharajong`, **or**
    - **Homepage template approach:** rename/duplicate the section content into `templates/index.*` (the Home template) so the default homepage renders the landing content.
 3. Publish the theme when you're happy with the preview.
 
@@ -72,10 +72,10 @@ The `index.html` preview references `og-image.png` directly. In Shopify, set it 
    `design/marketing/hero/og-image.png` (1200×630). This is what appears when the
    link is shared on social/messaging.
 2. **Preferences → Title and meta description** — set:
-   - Title: `Maharahjong — Founding Edition`
+   - Title: `Maharajong — Founding Edition`
    - Description: `Four traditions, one table. A premium Indian-fusion mahjong set. Join the Founding Edition waitlist.`
 3. (Optional) For a page-specific share image, edit the page's SEO section under
-   **Pages → Maharahjong → Edit website SEO**.
+   **Pages → Maharajong → Edit website SEO**.
 
 ---
 
@@ -100,7 +100,7 @@ submission **`preorder`**. No app required.
 
 Once pricing and timing firm up, convert interest into reservations:
 
-1. **Admin → Products → Add product** → **Founding Edition Maharahjong Set**.
+1. **Admin → Products → Add product** → **Founding Edition Maharajong Set**.
 2. Save it as a **Draft** for now (not published) so it doesn't appear before you're ready.
 3. When ready to take reservations, decide the mechanism:
    - a **deposit** product (partial-payment app), or

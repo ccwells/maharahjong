@@ -1,6 +1,6 @@
 {%- comment -%}
 ============================================================================
-  MAHARAHJONG — Founding Edition landing page (Shopify Liquid)
+  MAHARAJONG — Founding Edition landing page (Shopify Liquid)
 ============================================================================
 
   WHERE TO PASTE THIS:
@@ -8,12 +8,12 @@
   Option A (recommended — dedicated page template):
     1. Admin → Online Store → Themes → ⋯ → Edit code.
     2. Under "Templates", click "Add a new template" →
-       type: page → template type: Liquid → name it "maharahjong-landing".
-       (Creates templates/page.maharahjong-landing.liquid)
+       type: page → template type: Liquid → name it "maharajong-landing".
+       (Creates templates/page.maharajong-landing.liquid)
     3. Delete the placeholder content and paste this ENTIRE file in.
-    4. Admin → Online Store → Pages → Add page. Title: "Maharahjong".
+    4. Admin → Online Store → Pages → Add page. Title: "Maharajong".
        In the "Theme template" dropdown (right sidebar) choose
-       "page.maharahjong-landing". Save.
+       "page.maharajong-landing". Save.
     5. See DEPLOY.md to set this page as the homepage.
 
   Option B (Custom Liquid section, no new template):
@@ -172,7 +172,7 @@
           {% if form.posted_successfully? %}{%- assign captured = true -%}{% endif %}
           {% unless form.posted_successfully? %}
           <input type="hidden" name="contact[tags]" value="preorder" />
-          <input type="hidden" name="contact[note]" value="Maharahjong Founding Edition waitlist (hero)" />
+          <input type="hidden" name="contact[note]" value="Maharajong Founding Edition waitlist (hero)" />
           <div class="mrj-form">
             <input type="email" name="contact[email]" placeholder="Your email address" required aria-label="Email address" />
             <button type="submit" class="btn btn-gold">Join the Waitlist</button>
@@ -193,7 +193,7 @@
       <div class="section-head">
         <div class="rangoli-rule"><span class="dot">&#10022; &#10022; &#10022;</span></div>
         <h2>Four traditions, one table</h2>
-        <p>Mahjong has traveled the world for a century, gathering meaning at every table. Maharahjong brings it home to India — braiding four great game traditions into one set, dressed in the art of rangoli and the depth of Vedic symbol.</p>
+        <p>Mahjong has traveled the world for a century, gathering meaning at every table. Maharajong brings it home to India — braiding four great game traditions into one set, dressed in the art of rangoli and the depth of Vedic symbol.</p>
       </div>
       <div class="traditions">
         <div class="tradition"><div class="num">&#20013;</div><h3>Chinese</h3><p>The strategic heart — melds, pungs and kongs, and the flexible pursuit of a winning hand.</p></div>
@@ -213,7 +213,7 @@
         <p>Every face is drawn in the spirit of temple relief and rangoli stencil — lotus and peacock, deity and festival, chakra and Vedic sign. Intricate up close, instantly readable in play.</p>
       </div>
       <div class="strip">
-        <img src="{{ 'tile-showcase-strip.png' | asset_url }}" alt="A strip of Maharahjong tile artwork" loading="lazy" />
+        <img src="{{ 'tile-showcase-strip.png' | asset_url }}" alt="A strip of Maharajong tile artwork" loading="lazy" />
       </div>
       <div class="tile-grid">
         <div class="tile-card"><div class="tile-frame"><img src="{{ 'tile-garuda.png' | asset_url }}" alt="Garuda deity tile" loading="lazy" /></div><div class="cap-name">Garuda</div><div class="cap-desc">Deity of Power · honor tile</div></div>
@@ -238,9 +238,9 @@
         <div class="box-item"><div class="mark">4</div><div><h3>Tile racks</h3><p>One per player, styled to match the set's navy-and-gold palette.</p></div></div>
         <div class="box-item"><div class="mark">2</div><div><h3>Dice</h3><p>For dealing and setup — finished in an antique-brass tone. <span class="prov">final quantity may vary</span></p></div></div>
         <div class="box-item"><div class="mark">&#10022;</div><div><h3>Scoring trinkets</h3><p>Brass-style tokens for tracking points, wilds and the kitty. <span class="prov">final contents may vary</span></p></div></div>
-        <div class="box-item"><div class="mark">&#10023;</div><div><h3>Rules &amp; quick-start</h3><p>The full Maharahjong rulebook plus a one-page guide to get four players seated fast.</p></div></div>
+        <div class="box-item"><div class="mark">&#10023;</div><div><h3>Rules &amp; quick-start</h3><p>The full Maharajong rulebook plus a one-page guide to get four players seated fast.</p></div></div>
       </div>
-      <p class="box-disclaimer">Maharahjong is in active prototyping. Final contents, quantities and finishes may vary as we refine the set with our makers.</p>
+      <p class="box-disclaimer">Maharajong is in active prototyping. Final contents, quantities and finishes may vary as we refine the set with our makers.</p>
     </div>
   </section>
 
@@ -268,11 +268,11 @@
         <div class="rangoli-rule"><span class="dot">&#10022; &#10022; &#10022;</span></div>
         <span class="eyebrow">Founding Edition</span>
         <h2>Reserve your place at the table</h2>
-        <p class="lead">Join the pre-order list to be first to reserve a Founding Edition Maharahjong set — and to help shape it as it comes to life.</p>
+        <p class="lead">Join the pre-order list to be first to reserve a Founding Edition Maharajong set — and to help shape it as it comes to life.</p>
         {% form 'customer' %}
           {% unless form.posted_successfully? %}
           <input type="hidden" name="contact[tags]" value="preorder" />
-          <input type="hidden" name="contact[note]" value="Maharahjong Founding Edition waitlist (signup)" />
+          <input type="hidden" name="contact[note]" value="Maharajong Founding Edition waitlist (signup)" />
           <div class="signup-form">
             <input type="email" name="contact[email]" placeholder="Your email address" required aria-label="Email address" />
             <button type="submit" class="btn btn-gold">Join the Pre-order List</button>
@@ -295,12 +295,12 @@
         <h2>Questions &amp; answers</h2>
       </div>
       <div class="faq-list">
-        <details class="faq-item"><summary>When will Maharahjong ship?</summary><div class="faq-a">We don't have a firm ship date yet — Maharahjong is still in prototyping. Joining the pre-order list is the best way to hear about timing first, the moment it's set.</div></details>
-        <details class="faq-item"><summary>How much will it cost?</summary><div class="faq-a">Pricing isn't finalized. As a premium, hand-finished set, Maharahjong will be priced to match its craft — we'll share exact Founding Edition pricing with the waitlist before reservations open, with no obligation to buy.</div></details>
+        <details class="faq-item"><summary>When will Maharajong ship?</summary><div class="faq-a">We don't have a firm ship date yet — Maharajong is still in prototyping. Joining the pre-order list is the best way to hear about timing first, the moment it's set.</div></details>
+        <details class="faq-item"><summary>How much will it cost?</summary><div class="faq-a">Pricing isn't finalized. As a premium, hand-finished set, Maharajong will be priced to match its craft — we'll share exact Founding Edition pricing with the waitlist before reservations open, with no obligation to buy.</div></details>
         <details class="faq-item"><summary>Where is it made?</summary><div class="faq-a">Honestly, we're still deciding. We're in active prototyping and evaluating specialist makers who can do justice to the artwork and finish. We'll be transparent about materials and manufacturing as those choices firm up.</div></details>
-        <details class="faq-item"><summary>Do I need to know how to play mahjong?</summary><div class="faq-a">Not at all. Maharahjong is designed to welcome newcomers while rewarding experienced players. The set includes a full rulebook and a one-page quick-start so four people can sit down and play.</div></details>
+        <details class="faq-item"><summary>Do I need to know how to play mahjong?</summary><div class="faq-a">Not at all. Maharajong is designed to welcome newcomers while rewarding experienced players. The set includes a full rulebook and a one-page quick-start so four people can sit down and play.</div></details>
         <details class="faq-item"><summary>Is joining the list a commitment?</summary><div class="faq-a">No. The pre-order list is simply first access — no payment, no obligation. You'll hear from us as the set takes shape, and you can unsubscribe anytime.</div></details>
-        <details class="faq-item"><summary>Is the design respectful of the traditions it draws on?</summary><div class="faq-a">That's our first commitment. Maharahjong is a heartfelt fusion, and we render every symbol — Vedic, festival and deity — with care and reverence. We welcome feedback from the communities whose art and games inspire the set.</div></details>
+        <details class="faq-item"><summary>Is the design respectful of the traditions it draws on?</summary><div class="faq-a">That's our first commitment. Maharajong is a heartfelt fusion, and we render every symbol — Vedic, festival and deity — with care and reverence. We welcome feedback from the communities whose art and games inspire the set.</div></details>
       </div>
     </div>
   </section>
@@ -315,8 +315,8 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <span>&copy; {{ 'now' | date: '%Y' }} Maharahjong. All rights reserved.</span>
-        <span>maharahjong.com · Currently in prototyping</span>
+        <span>&copy; {{ 'now' | date: '%Y' }} Maharajong. All rights reserved.</span>
+        <span>maharajong.com · Currently in prototyping</span>
       </div>
     </div>
   </footer>
