@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate Maharahjong tile rack product reference images using the xAI Grok Imagine API.
+"""Generate Maharajong tile rack product reference images using the xAI Grok Imagine API.
 
 Uses GROK_API_KEY from the environment. No third-party dependencies required.
 
@@ -23,18 +23,18 @@ MODEL = "grok-imagine-image-quality"
 RACKS_DIR = Path(__file__).parent
 
 RACK_PROMPT = (
-    "Premium product photography of a luxury Maharahjong tile rack set, "
+    "Premium product photography of a luxury Maharajong tile rack set, "
     "flat-lay on deep navy/teal neoprene, soft diffused studio lighting with subtle shadows. "
     "Four 19-inch solid wood tile racks in warm honey-walnut stained wood, satin (not glossy) finish, "
     "each accompanied by a matching solid wood pusher of the same finish. "
     "One rack is shown with a row of ivory/cream mahjong tiles standing upright in the groove, "
     "demonstrating how tiles sit in the rack during play. "
-    "Small Maharahjong lotus-peacock logo laser-engraved on one end of each rack — "
+    "Small Maharajong lotus-peacock logo laser-engraved on one end of each rack — "
     "a stylized lotus flower with a peacock feather eye at center, in the manner of an elegant brand mark. "
     "Subtle Devanagari wind direction character engraved on the outer face of each rack: "
     "East/पू, South/द, West/प, North/उ — one per rack, small and elegant. "
     "In one corner of the flat-lay: a deep navy/teal velvet drawstring bag with gold-tone drawstring cord "
-    "and brass aglets, small embroidered Maharahjong lotus-peacock logo on the exterior, "
+    "and brass aglets, small embroidered Maharajong lotus-peacock logo on the exterior, "
     "sized to hold all four rack-and-pusher pairs. "
     "Warm wood grain visible through the stain. "
     "Overall aesthetic: premium Indian art deco game accessory, warm natural wood tones "
@@ -71,7 +71,7 @@ def generate_image(prompt: str, api_key: str) -> bytes:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Generate Maharahjong rack design via xAI API")
+    parser = argparse.ArgumentParser(description="Generate Maharajong rack design via xAI API")
     parser.add_argument("--dry-run", action="store_true", help="Print prompt without calling the API")
     parser.add_argument("--variants", type=int, default=3, help="Number of design variants to generate (default: 3)")
     args = parser.parse_args()

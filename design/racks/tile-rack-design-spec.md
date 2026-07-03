@@ -1,4 +1,4 @@
-# Maharahjong Tile Rack & Pusher Design Spec
+# Maharajong Tile Rack & Pusher Design Spec
 
 ## Physical Specifications
 - **Material**: Solid wood, warm medium stain (or optional fun color variant)
@@ -19,10 +19,10 @@
 
 ### Wood finish options
 - **Standard**: Warm medium stain — a honey or walnut tone that pairs with the ivory/cream tile faces and antique brass dice. Satin finish (not glossy) for a tactile, natural feel.
-- **Color variant**: A single accent color from the Maharahjong palette — deep teal, magenta-pink, royal purple, or emerald green — applied as an opaque stain or lacquer that still shows wood grain. Each set could feature one color, or mix all four (one per player wind position).
+- **Color variant**: A single accent color from the Maharajong palette — deep teal, magenta-pink, royal purple, or emerald green — applied as an opaque stain or lacquer that still shows wood grain. Each set could feature one color, or mix all four (one per player wind position).
 
 ### Engraving / branding
-- A small Maharahjong lotus-peacock logo engraved or laser-etched on one end of each rack
+- A small Maharajong lotus-peacock logo engraved or laser-etched on one end of each rack
 - Optional: each rack engraved with a wind direction symbol (East/पू, South/द, West/प, North/उ) so players can identify their seat — subtle, on the outer-facing side
 - Pusher may carry a matching wind symbol or be left plain
 
@@ -30,7 +30,7 @@
 - **Color**: Deep navy or teal (matching the mat and tile back)
 - **Closure**: Gold-tone drawstring cord with brass or metal aglets
 - **Interior pockets**: Lined dividers to separate each rack/pusher pair and prevent scratching
-- **Branding**: Small embroidered or printed Maharahjong logo on the exterior
+- **Branding**: Small embroidered or printed Maharajong logo on the exterior
 
 ## Moodboard References
 - `Crnn5.jpg` — Luxury mahjong set showing how racks integrate with the overall set aesthetic

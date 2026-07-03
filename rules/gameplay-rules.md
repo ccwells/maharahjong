@@ -1,7 +1,7 @@
-# Maharahjong Rules v0.1 - Complete Draft
+# Maharajong Rules v0.1 - Complete Draft
 
 ## Introduction
-Maharahjong is a beautiful fusion of the best elements from Chinese Mahjong (strategic melds and flexible hands), Japanese Riichi Mahjong (ready declarations and defensive play), American Mahjong (social Charleston passing and evolving hands), and Indian cultural traditions (Rummy-style runs, rangoli artistry, Vedic symbols, and festival storytelling).
+Maharajong is a beautiful fusion of the best elements from Chinese Mahjong (strategic melds and flexible hands), Japanese Riichi Mahjong (ready declarations and defensive play), American Mahjong (social Charleston passing and evolving hands), and Indian cultural traditions (Rummy-style runs, rangoli artistry, Vedic symbols, and festival storytelling).
 
 The goal is a premium, unique game that feels familiar yet distinctly Indian - vibrant, strategic, social, and culturally resonant.
 

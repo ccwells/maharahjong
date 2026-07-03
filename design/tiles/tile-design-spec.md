@@ -1,4 +1,4 @@
-# Maharahjong Tile Design Spec
+# Maharajong Tile Design Spec
 
 ## Overview
 152 total tiles. Each tile face is designed for a premium physical mahjong tile (32×23×13mm per tile, face is 32×23mm).
@@ -149,7 +149,7 @@ Derived from the moodboard: temple stone carvings, vibrant rangoli floor art, pe
 ---
 
 ## Tile Back Design (shared across all 152 tiles)
-> Premium mahjong tile back design, deep navy/teal background, centered Maharahjong logo: a stylized golden lotus-peacock hybrid motif — lotus base with peacock feather eye emerging from center — surrounded by a geometric rangoli border in gold filigree, Indian art deco fusion style, seamless repeating pattern of tiny rangoli dots in the background field, luxurious and premium feel, no text
+> Premium mahjong tile back design, deep navy/teal background, centered Maharajong logo: a stylized golden lotus-peacock hybrid motif — lotus base with peacock feather eye emerging from center — surrounded by a geometric rangoli border in gold filigree, Indian art deco fusion style, seamless repeating pattern of tiny rangoli dots in the background field, luxurious and premium feel, no text
 
 ---
 

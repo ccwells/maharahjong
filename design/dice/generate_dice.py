@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate Maharahjong dice product reference images using the xAI Grok Imagine API.
+"""Generate Maharajong dice product reference images using the xAI Grok Imagine API.
 
 Uses GROK_API_KEY from the environment. No third-party dependencies required.
 
@@ -33,10 +33,10 @@ DICE_PROMPT = (
     "The 1-pip face features a single larger peacock-feather eye motif instead of a plain dot: "
     "an iridescent teal eye-spot in a golden surround, recessed and enamel-filled. "
     "Each face has a subtle recessed border line framing the pips, "
-    "echoing the gold border treatment on the Maharahjong tiles. "
+    "echoing the gold border treatment on the Maharajong tiles. "
     "One die is angled to show the 1-pip peacock-feather face prominently. "
     "The other die shows the 6-pip lotus-bud face. "
-    "A tiny Maharahjong lotus-peacock logo is engraved in one corner of the 6-pip face — subtle, not competing with the pips. "
+    "A tiny Maharajong lotus-peacock logo is engraved in one corner of the 6-pip face — subtle, not competing with the pips. "
     "The brass surface catches the light beautifully, showing craftsmanship and weight. "
     "Overall aesthetic: luxury Indian-inspired game accessory, warm antique brass on deep navy. "
     "No text, no watermarks."
@@ -72,7 +72,7 @@ def generate_image(prompt: str, api_key: str) -> bytes:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Generate Maharahjong dice design via xAI API")
+    parser = argparse.ArgumentParser(description="Generate Maharajong dice design via xAI API")
     parser.add_argument("--dry-run", action="store_true", help="Print prompt without calling the API")
     parser.add_argument("--variants", type=int, default=3, help="Number of design variants to generate (default: 3)")
     args = parser.parse_args()

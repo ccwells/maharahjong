@@ -1,4 +1,4 @@
-# Maharahjong Tile Blanks Sourcing Spec
+# Maharajong Tile Blanks Sourcing Spec
 
 ## Target Tile Dimensions
 - **Size**: 32 × 23 × 13 mm (per gameplay-rules.md tile spec)
@@ -29,11 +29,11 @@
 - **Pricing**: Quote-based (submit artwork + specs for custom quote)
 - **NDA**: Will sign before receiving artwork
 
-### Maharahjong fit
+### Maharajong fit
 - ✅ Can produce exact 32 × 23 × 13 mm tiles in ivory/cream acrylic
 - ✅ Multi-layer option enables a premium colored-edge tile (e.g., ivory face + navy/gold edge)
 - ✅ Their engraving + UV printing workflow matches our planned production approach
-- ✅ Can produce the entire Maharahjong set (tiles + racks + pushers + mat + case) as one OEM order
+- ✅ Can produce the entire Maharajong set (tiles + racks + pushers + mat + case) as one OEM order
 - ⚠️ MOQ likely requires committing to 100+ sets — good for initial production run, not for single prototypes
 - 📋 **Action**: Contact Jayi with our tile-design-spec.md and request a sample quote for 100 sets
 
@@ -61,7 +61,7 @@
 - **MOQ**: Bulk orders with low MOQ (specific quantity TBD — request quote)
 - **Packaging**: Shrink-wrapped tiles in matching boxes (wooden, plastic, or custom)
 
-### Maharahjong fit
+### Maharajong fit
 - ✅ Multiple material options let us test acrylic vs. melamine vs. wood-back before committing
 - ✅ Blank tiles are ideal for our own UV printing + laser engraving workflow
 - ✅ Multi-layer colored edge option (ivory face + navy/teal side layers)
@@ -82,7 +82,7 @@
 - **Availability**: In stock, Prime shipping
 - **Rating**: 4.6/5 stars
 
-### Maharahjong fit
+### Maharajong fit
 - ⚠️ Size is 30.5 × 22.9 mm — **1.5 mm narrower** than our 32 mm spec. Close enough for prototyping, not for production.
 - ✅ Immediate availability — can order today for rapid workflow testing
 - ✅ Affordable for testing UV printing adhesion, laser engraving parameters, and print-then-engrave workflow

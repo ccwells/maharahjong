@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate Maharahjong playing mat design using the xAI Grok Imagine API.
+"""Generate Maharajong playing mat design using the xAI Grok Imagine API.
 
 Uses GROK_API_KEY from the environment. No third-party dependencies required.
 
@@ -34,7 +34,7 @@ MAT_PROMPT = (
     "BORDER: Outer edge has a continuous rangoli dot band in gold running the full perimeter. "
     "Inner border is a geometric gold line frame with diamond accent shapes at the midpoint of each side. "
     ""
-    "CENTER: A rotated square (diamond) frame in gold contains the Maharahjong logo — "
+    "CENTER: A rotated square (diamond) frame in gold contains the Maharajong logo — "
     "a stylized golden lotus flower with a peacock feather eye emerging from its center. "
     "Surrounding the diamond is a rangoli mandala ring of concentric lotus petals and peacock feather eyes in gold line art. "
     "A larger subtle square outline around the center defines the wall-building play area. "
@@ -76,7 +76,7 @@ def generate_image(prompt: str, api_key: str) -> bytes:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Generate Maharahjong mat design via xAI API")
+    parser = argparse.ArgumentParser(description="Generate Maharajong mat design via xAI API")
     parser.add_argument("--dry-run", action="store_true", help="Print prompt without calling the API")
     parser.add_argument("--variants", type=int, default=3, help="Number of design variants to generate (default: 3)")
     args = parser.parse_args()

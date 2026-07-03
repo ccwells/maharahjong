@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Crop Maharahjong tile images to the exact physical tile-face aspect ratio.
+"""Crop Maharajong tile images to the exact physical tile-face aspect ratio.
 
 The physical tile face is 32 x 23 mm. Tiles are generated in portrait
 orientation, so the exact target image proportion is 23:32 (width:height =

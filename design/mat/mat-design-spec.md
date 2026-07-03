@@ -1,4 +1,4 @@
-# Maharahjong Playing Mat Design Spec
+# Maharajong Playing Mat Design Spec
 
 ## Physical Specifications
 - **Size**: 32.5 × 32.5 inches (square)
@@ -17,8 +17,8 @@ The gold-on-navy peacock mahjong playmat in the moodboard (`design/moodboard/nym
 - Geometric art-deco framing lines connecting the corners
 - Center medallion with a repeating pattern (the moodboard uses a peacock-feather fan pattern)
 
-### Maharahjong adaptations
-Differentiate from the reference by incorporating the Maharahjong visual identity:
+### Maharajong adaptations
+Differentiate from the reference by incorporating the Maharajong visual identity:
 
 **Corners (4 player positions)**
 - Each corner features one of the four wind direction symbols from the honor tiles (East/पू, South/द, West/प, North/उ) rendered in gold, replacing generic corner art
