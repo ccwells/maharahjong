@@ -6,7 +6,7 @@
 - **Product page**: https://www.xtool.com/pages/xtool-f2-ultra-uv-5w-uv-laser-engraver
 - **User guide**: https://support.xtool.com/article/2595
 - **Price**: From $4,599 USD
-- **Purpose in Maharahjong**: Laser engraving tile faces, brass dice pips, brass trinket engravings, and wood rack branding
+- **Purpose in Maharajong**: Laser engraving tile faces, brass dice pips, brass trinket engravings, and wood rack branding
 
 ## Laser Specifications
 - **Laser type**: 5W UV laser
@@ -92,7 +92,7 @@
 - **Fan module**: Remove and brush-clean when smoke escapes the enclosure
 - **Monthly**: Run machine 30+ minutes to dry internal moisture; inspect lens and mirror surfaces
 
-## Maharahjong Production Notes
+## Maharajong Production Notes
 
 ### Tile engraving (primary use case)
 - Tile face is 32 × 23 mm — fits easily within the 200 × 200 mm work area
@@ -110,7 +110,7 @@
 
 ### Wood engraving (racks)
 - UV produces clean "frosty" engraving on wood with zero charring
-- Ideal for the Maharahjong logo and wind symbol engraving on rack ends
+- Ideal for the Maharajong logo and wind symbol engraving on rack ends
 - 15 mm cutting depth on basswood could allow cutting rack blanks, but dedicated woodworking tools are more practical
 
 ### Design file preparation

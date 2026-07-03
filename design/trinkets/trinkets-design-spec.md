@@ -1,13 +1,13 @@
-# Maharahjong Trinkets & Accessories Design Spec
+# Maharajong Trinkets & Accessories Design Spec
 
 ## Overview
-Small brass game tokens and markers that complete the premium Maharahjong set. All trinkets are solid brass with antique patina finish — the same material, scale, and craftsmanship as the dice. Each piece should be roughly dice-sized (~14–18mm) or slightly smaller, comfortable to hold and place on the mat.
+Small brass game tokens and markers that complete the premium Maharajong set. All trinkets are solid brass with antique patina finish — the same material, scale, and craftsmanship as the dice. Each piece should be roughly dice-sized (~14–18mm) or slightly smaller, comfortable to hold and place on the mat.
 
 ## Material & Finish (shared across all trinkets)
 - **Material**: Solid brass
 - **Finish**: Antique brass patina (matching the dice exactly)
 - **Scale**: ~14–18mm per piece — small enough to sit on the mat without interfering with tiles
-- **Detail**: Recessed engravings with enamel fill in the Maharahjong palette (teal, magenta-pink, purple)
+- **Detail**: Recessed engravings with enamel fill in the Maharajong palette (teal, magenta-pink, purple)
 
 ## Wind Marker Set (4 pieces)
 - **Purpose**: Each player places one at their seat to mark wind position
@@ -15,7 +15,7 @@ Small brass game tokens and markers that complete the premium Maharahjong set. A
 - **Design**: Each face engraved with one wind direction symbol and Devanagari character:
   - East/पू, South/द, West/प, North/उ
 - **Fill**: Teal enamel in the engraved character
-- **Reverse**: Maharahjong lotus-peacock logo, recessed
+- **Reverse**: Maharajong lotus-peacock logo, recessed
 
 ## Dealer Token (1 piece)
 - **Purpose**: Indicates the current dealer (East wind player); passed each round

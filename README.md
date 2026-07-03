@@ -1,4 +1,4 @@
-# Project Maharahjong 🀄🇮🇳
+# Project Maharajong 🀄🇮🇳
 
 **Indian Fusion Mahjong** - Premium game blending Chinese, Japanese, American Mahjong with rangoli artistry, Vedic depth, and Rummy strategy.
 

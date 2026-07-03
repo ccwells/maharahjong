@@ -6,7 +6,7 @@
 - **Product page**: https://www.eufymake.com/products/eufymake-e1
 - **Support & user guide**: https://support.eufymake.com/s/product/a08J10000018M9hIAE/uv-printer-e1
 - **Price**: From $2,499 USD (Basic Bundle) / $3,299 (Deluxe Bundle)
-- **Purpose in Maharahjong**: Full-color UV printing of tile face artwork, mat printing (if neoprene sublimation is handled externally), and potentially printing on wood racks or other accessories
+- **Purpose in Maharajong**: Full-color UV printing of tile face artwork, mat printing (if neoprene sublimation is handled externally), and potentially printing on wood racks or other accessories
 
 ## Printing Specifications
 - **Printer type**: Piezo inkjet UV flatbed printer
@@ -99,7 +99,7 @@ Wood, metal, glass, ceramic, acrylic, plastic, leather, fabric (with flexible wh
 - **Air filter replacement**: Activated carbon filter, replace as needed
 - **Ink pad & scraper kit**: Replace per usage guidelines
 
-## Maharahjong Production Notes
+## Maharajong Production Notes
 
 ### Tile face printing (primary use case)
 - Tile face is 32 × 23 mm — the A3 flatbed (330 × 420 mm) can fit ~130 tiles per batch (10 × 13 grid with spacing)

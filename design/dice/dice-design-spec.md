@@ -1,4 +1,4 @@
-# Maharahjong Dice Design Spec
+# Maharajong Dice Design Spec
 
 ## Physical Specifications
 - **Type**: 6-sided (d6), standard 16mm
@@ -17,7 +17,7 @@ Antique brass dice, 6-sided brass dice, six-sided solid brass dice, brass dice s
 - Pips are **recessed and filled** with enamel or paint in a contrasting color:
   - **Option A**: Deep teal enamel fill (matches the mat and tile back palette)
   - **Option B**: Ivory/cream enamel fill (matches the tile face)
-- The 1-pip face features a single larger motif — a peacock-feather eye or the Maharahjong lotus — instead of a plain dot
+- The 1-pip face features a single larger motif — a peacock-feather eye or the Maharajong lotus — instead of a plain dot
 
 ### Surface finish
 - Antique brass patina — warm, slightly aged gold-bronze tone (not shiny polished brass)
@@ -25,7 +25,7 @@ Antique brass dice, 6-sided brass dice, six-sided solid brass dice, brass dice s
 - Each face has a subtle recessed border line framing the pips, echoing the gold border treatment on the tiles
 
 ### Branding
-- One face (the 6-pip side or opposite the 1) may carry a tiny engraved Maharahjong logo mark in one corner — subtle, not competing with the pips
+- One face (the 6-pip side or opposite the 1) may carry a tiny engraved Maharajong logo mark in one corner — subtle, not competing with the pips
 
 ## Moodboard References
 The moodboard doesn't include dice-specific images, but the following inform the material and tone:

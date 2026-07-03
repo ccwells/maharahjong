@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate Maharahjong tile images using the xAI Grok Imagine API.
+"""Generate Maharajong tile images using the xAI Grok Imagine API.
 
 Uses GROK_API_KEY from the environment. No third-party dependencies required.
 Generates 51 unique tile designs (the game's 152 tiles are copies of these).
@@ -191,7 +191,7 @@ TILES: dict[str, list[tuple[str, str]]] = {
     "tile-back": [
         ("tile-back/tile-back.png",
          f"{TILE_BASE}, tile BACK design (not a face), deep navy/teal background, "
-         "centered Maharahjong logo: a stylized golden lotus-peacock hybrid motif — "
+         "centered Maharajong logo: a stylized golden lotus-peacock hybrid motif — "
          "lotus base with peacock feather eye emerging from center — "
          "surrounded by a geometric rangoli border in gold filigree, "
          "Indian art deco fusion style, seamless repeating pattern of tiny rangoli dots "
@@ -229,7 +229,7 @@ def generate_image(prompt: str, api_key: str) -> bytes:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Generate Maharahjong tile images via xAI API")
+    parser = argparse.ArgumentParser(description="Generate Maharajong tile images via xAI API")
     parser.add_argument(
         "--category",
         choices=list(TILES.keys()) + ["all"],

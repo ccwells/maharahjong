@@ -1,8 +1,8 @@
-# Project Maharahjong Development Plan
+# Project Maharajong Development Plan
 
 ## Current Status (Updated 2026-06-08)
 - **Active branch**: `design-playing-mat` (PR #20 open)
-- **Blocked on**: Shopify domain propagation (maharahjong.com purchased, awaiting DNS)
+- **Blocked on**: Shopify domain propagation (maharajong.com purchased, awaiting DNS)
 - **Next up**: Order prototype tile blanks from Amazon; contact Jayi/Promlogo for custom samples; fix tile aspect ratio
 - **Deferred**: #3, #5, #8 (business/research tasks — on hold until game design is finished)
 

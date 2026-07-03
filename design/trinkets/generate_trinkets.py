@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate Maharahjong trinkets & accessories product reference images using the xAI Grok Imagine API.
+"""Generate Maharajong trinkets & accessories product reference images using the xAI Grok Imagine API.
 
 Uses GROK_API_KEY from the environment. No third-party dependencies required.
 
@@ -27,14 +27,14 @@ TRINKETS_DIR = Path(__file__).parent
 
 # Full set flat-lay — all token types in one product shot
 FLATLAY_PROMPT = (
-    "Premium product photography flat-lay of luxury Maharahjong brass game tokens and markers, "
+    "Premium product photography flat-lay of luxury Maharajong brass game tokens and markers, "
     "arranged neatly on deep navy/teal neoprene, soft diffused studio lighting with subtle shadows. "
     "All pieces in antique brass patina — warm aged gold-bronze, lightly brushed texture, "
-    "matching the Maharahjong dice. "
+    "matching the Maharajong dice. "
     ""
     "Top row: four square wind marker tokens (approx 16mm × 16mm × 4mm) with rounded corners. "
     "Each has a Devanagari character recessed and filled with deep teal enamel: पू (East), द (South), प (West), उ (North). "
-    "Maharahjong lotus-peacock logo recessed on the reverse of each marker. "
+    "Maharajong lotus-peacock logo recessed on the reverse of each marker. "
     ""
     "Center-left: one circular dealer token (approx 18mm diameter, 4mm thick) — slightly larger than the wind markers — "
     "with a peacock-feather eye motif on the front, teal enamel eye-spot in a gold surround, recessed. "
@@ -57,12 +57,12 @@ FLATLAY_PROMPT = (
 
 # Close-up of the three scoring coin denominations
 COINS_PROMPT = (
-    "Premium macro product photography of Maharahjong scoring coins, "
+    "Premium macro product photography of Maharajong scoring coins, "
     "three denominations displayed on deep navy/teal neoprene, "
     "soft diffused studio lighting, shallow depth of field. "
     "All coins solid brass with antique patina — warm aged gold-bronze, lightly brushed texture. "
     "Left: small coin (approx 14mm diameter) — teal enamel circle at center, "
-    "Maharahjong lotus-peacock logo engraved on face, raised edge. "
+    "Maharajong lotus-peacock logo engraved on face, raised edge. "
     "Center: medium coin (approx 16mm diameter) — magenta-pink enamel circle at center, same logo. "
     "Right: large coin (approx 18mm diameter) — royal purple enamel circle at center, same logo. "
     "Coins angled slightly to show edge thickness (approx 3mm). "
@@ -107,7 +107,7 @@ def generate_image(prompt: str, api_key: str, aspect_ratio: str = "1:1") -> byte
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Generate Maharahjong trinkets design via xAI API")
+    parser = argparse.ArgumentParser(description="Generate Maharajong trinkets design via xAI API")
     parser.add_argument("--dry-run", action="store_true", help="Print prompts without calling the API")
     args = parser.parse_args()
 
