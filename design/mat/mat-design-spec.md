@@ -2,10 +2,10 @@
 
 ## Physical Specifications
 - **Size**: 32.5 × 32.5 inches (square)
-- **Material**: Machine-washable neoprene with non-slip rubber backing
-- **Edge finish**: Contrast stitching around perimeter
-- **Thickness**: ~3mm (standard neoprene gaming mat)
-- **Print**: Full-bleed sublimation dye print on fabric surface
+- **Material**: Printed micro-suede top on a dense rubber non-slip base (upgraded from neoprene 2026-07-03 — same sublimation print process, premium hand-feel; see `design/materials-spec.md`)
+- **Edge finish**: Gold satin-stitch border around perimeter
+- **Thickness**: ~5mm (denser and more cushioned than standard 3mm gaming neoprene)
+- **Print**: Full-bleed sublimation dye print on the micro-suede surface
 
 ## Art Direction
 
@@ -79,5 +79,5 @@ Differentiate from the reference by incorporating the Maharajong visual identity
 ## Production Notes
 - Design artwork at **6000 × 6000 px minimum** (185 DPI at 32.5 inches)
 - Export as high-res PNG or TIFF for sublimation printing
-- Verify gold tones survive the CMYK conversion for neoprene sublimation (metallic gold won't print — use a warm saffron-gold that reads as gold on dark backgrounds)
-- Contrast stitching color should be specified as a Pantone or thread color code for the manufacturer
+- Verify gold tones survive the CMYK conversion for micro-suede sublimation (metallic gold won't print — use a warm saffron-gold that reads as gold on dark backgrounds)
+- Satin-stitch border thread should be specified as a Pantone or thread color code for the manufacturer (target: antique gold to match the brass components)

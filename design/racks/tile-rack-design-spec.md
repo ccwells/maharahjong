@@ -1,9 +1,9 @@
 # Maharajong Tile Rack & Pusher Design Spec
 
 ## Physical Specifications
-- **Material**: Solid wood, warm medium stain (or optional fun color variant)
+- **Material**: Solid sheesham (Indian rosewood), hand-rubbed oil finish, single inlaid brass rule line along the top outer edge (see `design/materials-spec.md`)
 - **Rack length**: 19 inches
-- **Pusher**: Matching solid wood, same finish as rack
+- **Pusher**: Matching solid sheesham, same finish as rack
 - **Magnets**: Built-in magnets in pusher to hold securely behind the wall until push-out
 - **Quantity per set**: 4 racks + 4 pushers
 - **Carrying case**: Soft velvet drawstring bag with 4 interior pockets (one per rack/pusher pair)
@@ -17,9 +17,10 @@
 
 ## Art Direction
 
-### Wood finish options
-- **Standard**: Warm medium stain — a honey or walnut tone that pairs with the ivory/cream tile faces and antique brass dice. Satin finish (not glossy) for a tactile, natural feel.
-- **Color variant**: A single accent color from the Maharajong palette — deep teal, magenta-pink, royal purple, or emerald green — applied as an opaque stain or lacquer that still shows wood grain. Each set could feature one color, or mix all four (one per player wind position).
+### Wood finish
+- **Standard**: Solid sheesham (Indian rosewood) — deep chocolate grain with natural chatoyance, hand-rubbed oil finish (satin, not glossy). Sheesham is the wood of Indian furniture craft; "sheesham and brass" names the set's origin the way walnut never could. Pairs with the ivory tile faces and antique brass dice.
+- **Brass inlay**: One thin (~2 mm) antique-brass rule line inlaid along the top outer edge of each rack, tying the wood to the metal language of the dice, trinkets, and diya.
+- **Color variant (deferred)**: The opaque palette-stain variants (teal, magenta, purple, emerald) are parked for a possible post-launch edition; Founding Edition ships sheesham only.
 
 ### Engraving / branding
 - A small Maharajong lotus-peacock logo engraved or laser-etched on one end of each rack
@@ -41,4 +42,4 @@
 - Rack must comfortably hold at least 14 tiles (32mm wide each) with clearance — 19" provides ~480mm usable length for ~14–15 tiles
 - Pusher magnet strength should hold position during play but release easily when intentionally pulled
 - Velvet bag should be sized to hold all 4 racks without compression
-- Request samples in both the warm medium stain and one color variant to evaluate
+- Request samples in sheesham with brass inlay; walnut as fallback comparison if sheesham MOQ or lead time is problematic

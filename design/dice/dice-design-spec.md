@@ -14,9 +14,9 @@ Antique brass dice, 6-sided brass dice, six-sided solid brass dice, brass dice s
 
 ### Pip design
 - **Standard pips** replaced with small lotus-bud engravings (or traditional dot pips with a decorative ring — TBD after prototype)
-- Pips are **recessed and filled** with enamel or paint in a contrasting color:
-  - **Option A**: Deep teal enamel fill (matches the mat and tile back palette)
-  - **Option B**: Ivory/cream enamel fill (matches the tile face)
+- Pips are **recessed and filled** with enamel in a contrasting color:
+  - **Selected (2026-07-03)**: Deep navy enamel fill — matches the tile core layer and mat field, so dice, tiles, and mat share one blue (see `design/materials-spec.md`)
+  - Alternatives considered: deep teal (close second — revisit at sample stage), ivory/cream (too low-contrast on brass)
 - The 1-pip face features a single larger motif — a peacock-feather eye or the Maharajong lotus — instead of a plain dot
 
 ### Surface finish

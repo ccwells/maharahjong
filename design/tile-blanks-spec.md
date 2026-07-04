@@ -1,5 +1,10 @@
 # Maharajong Tile Blanks Sourcing Spec
 
+> **Material decision (2026-07-03)**: Four-layer cast acrylic — ivory face /
+> gold hairline / lapis-navy core / ivory back — pending sample validation.
+> Rationale and full component material language: `design/materials-spec.md`.
+> Draft supplier inquiries: `business/outreach/`.
+
 ## Target Tile Dimensions
 - **Size**: 32 × 23 × 13 mm (per gameplay-rules.md tile spec)
 - **Quantity per set**: 152 tiles
