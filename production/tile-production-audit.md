@@ -78,7 +78,7 @@
 - **Verdict**: ✅ The laser can handle all text and fine details at tile size. Even the finest rangoli dot patterns (estimated ~0.5mm dots) are 25× larger than the spot size.
 
 ### Material compatibility
-- **Tile material**: TBD (resin, acrylic, or melamine — not yet decided)
+- **Tile material**: Four-layer cast acrylic (decided — see `design/variant-01/materials-spec.md`)
 - **Engraver supports**: Acrylic ✅, plastic ✅, ceramic ✅, resin ✅
 - **UV cold processing**: No burning/charring on any of these materials
 - **Action needed**: ⚠️ Decide on tile blank material, then run test engravings
