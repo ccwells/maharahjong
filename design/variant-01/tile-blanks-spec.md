@@ -1,9 +1,15 @@
-# Maharajong Tile Blanks Sourcing Spec
+# Maharajong Tile Blanks Sourcing Spec — Variant 01
 
-> **Material decision (2026-07-03)**: Four-layer cast acrylic — ivory face /
-> gold hairline / lapis-navy core / ivory back — pending sample validation.
-> Rationale and full component material language: `design/materials-spec.md`.
-> Draft supplier inquiries: `business/outreach/`.
+> **Variant 01: Ivory / Gold / Navy / Ivory** — all four layers opaque acrylic.
+> See `design/variant-02/tile-blanks-spec.md` for the clear-back alternative.
+
+> **Material decision (2026-07-11)**: Four-layer cast acrylic — ivory face /
+> gold hairline / lapis-navy core / ivory back — **confirmed**. Indian artisan
+> alternatives evaluated and ruled out: sheesham fails on weight (~8 g/tile), colored
+> edge, and UV print adhesion; Makrana marble fails on weight (~25.8 g/tile), cost
+> (5–15× acrylic), and gameplay fragility. Full rationale: `design/materials-spec.md`.
+> Supplier inquiries: `business/outreach/jayi-inquiry-email.md` (OEM) and
+> `business/outreach/promlogo-inquiry-email.md` (blanks).
 
 ## Target Tile Dimensions
 - **Size**: 32 × 23 × 13 mm (per gameplay-rules.md tile spec)

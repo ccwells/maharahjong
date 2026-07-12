@@ -2,7 +2,7 @@
 
 **To**: via https://www.jayiacrylic.com/custom-mahjong-set/ contact form or sales email
 **From**: ccwells@gmail.com
-**Attachments when sending**: tile face renders (a few samples from `design/tiles/print-ready/`), edge-layer diagram if available. Note: Jayi will sign an NDA before receiving full artwork — request that first.
+**Attachments when sending**: tile face renders (a few samples from `design/tiles/print-ready/`), `design/variant-01/manufacturer-docs/tile-blank-technical-drawing.svg` (engineering drawing). Note: Jayi will sign an NDA before receiving full artwork — request that first.
 
 ---
 

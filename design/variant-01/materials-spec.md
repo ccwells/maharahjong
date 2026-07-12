@@ -1,7 +1,10 @@
-# Maharajong Materials Specification
+# Maharajong Materials Specification — Variant 01
 
-**Date**: 2026-07-03
-**Status**: Recommended — pending physical sample validation
+> **Variant 01: Ivory / Gold / Navy / Ivory** — all four layers opaque acrylic.
+> See `design/variant-02/materials-spec.md` for the clear-back alternative.
+
+**Date**: 2026-07-11
+**Status**: Confirmed — acrylic for tiles (Chinese OEM); Indian artisan sourcing for wood and brass components
 **Informs**: tile blank orders, supplier quotes, component spec updates
 
 ## The material language
@@ -53,5 +56,33 @@ substitutes sheesham for walnut as a deliberate provenance statement.
 
 ## Supplier outreach
 
-Draft inquiry emails: `business/outreach/jayi-inquiry-email.md` and
+Acrylic tile blanks: `business/outreach/jayi-inquiry-email.md` and
 `business/outreach/promlogo-inquiry-email.md`
+
+Indian artisan components: `business/outreach/sheesham-racks-inquiry.md` (racks/pushers)
+and `business/outreach/moradabad-brass-inquiry.md` (dice/trinkets).
+
+## Indian artisan sourcing (2026-07-11)
+
+Wood and stone alternatives for tiles were evaluated against the five-constraint tile
+spec (UV printable, UV laser engravable, 16–19 g, multi-layer colored edge, 32 × 23 × 13 mm
+precision at 152-tile volume) and ruled out:
+
+- **Sheesham**: weight ~8 g/tile (target 16–19 g); cannot produce navy/gold colored edge;
+  UV print adhesion requires untested priming workflow; grain variation creates 152-tile QC risk.
+- **Makrana marble**: weight ~25.8 g/tile (full set >3.9 kg); material cost 5–15× acrylic;
+  brittle under gameplay shuffling; UV print adhesion on polished stone untested.
+
+The three-material language (acrylic / brass / sheesham) is confirmed. Indian artisan
+sourcing is directed to the components where it is genuinely superior:
+
+| Component | Indian sourcing cluster |
+|-----------|-------------------------|
+| Racks + pushers | Jodhpur / Saharanpur / Pravat Timbers (Kolkata) — sheesham with CNC + hand-finish |
+| Dice + scoring trinkets | Moradabad — India's brass hub; Jaipur meenakari for enamel fills |
+| Diya insert | Moradabad / Jaipur brass workshops |
+| Playing mat | Surat — sublimation printing + gold satin-stitch embroidery |
+
+**Post-launch milestone**: Makrana marble collector's edition — limited ultra-premium SKU
+(display/heirloom object, not for active gameplay), hand-cut by Jaipur artisans. See
+`PROJECT-PLAN.md`.

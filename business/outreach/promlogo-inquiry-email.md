@@ -5,6 +5,10 @@
 
 ---
 
+**Attachments when sending**: `design/variant-01/manufacturer-docs/tile-blank-technical-drawing.svg` (engineering drawing)
+
+---
+
 **Subject**: Sample pack request — blank mahjong tiles, 3 materials, 32 × 23 × 13 mm
 
 Hello,
